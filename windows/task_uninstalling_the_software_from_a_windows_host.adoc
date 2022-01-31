@@ -1,0 +1,22 @@
+---
+permalink: windows/task_uninstalling_the_software_from_a_windows_host.html 
+sidebar: sidebar 
+keywords: uninstall, snapmanager, host, server 
+summary: 호스트 서버에서 SnapManager를 제거할 수 있습니다. 
+---
+= SnapManager를 제거하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+호스트 서버에서 SnapManager를 제거할 수 있습니다.
+
+* SnapManager를 제거하기 전에 호스트 서버를 중지하십시오.
++
+.. 시작 * > * 제어판 * > * 프로그램 추가/제거 * 를 클릭합니다.
+.. SnapManager for Oracle * 을 선택합니다.
+.. 제거 * 를 클릭합니다.
+
+
+

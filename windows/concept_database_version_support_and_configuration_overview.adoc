@@ -1,0 +1,22 @@
+---
+permalink: windows/concept_database_version_support_and_configuration_overview.html 
+sidebar: sidebar 
+keywords: database, configuration, overview 
+summary: SnapManager에서 지원되는 다양한 데이터베이스 버전과 구성을 알고 있어야 합니다. 작업을 성공적으로 수행하려면 기본 데이터베이스 레이아웃 및 구성 설정을 수행해야 합니다. 
+---
+= 데이터베이스 버전 지원 및 구성 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapManager에서 지원되는 다양한 데이터베이스 버전과 구성을 알고 있어야 합니다. 작업을 성공적으로 수행하려면 기본 데이터베이스 레이아웃 및 구성 설정을 수행해야 합니다.
+
+Oracle용 SnapManager는 Oracle 버전 10gR2(10.2.0.5), 11gR1, 11gR2(11.2.0.1 및 11.2.0.2), 12__c__, RMAN(Recovery Manager)과 같은 기본 Oracle 기술 및 FC(Fibre Channel) 및 iSCSI(Internet Small Computer System Interface) 프로토콜과 통합됩니다.
+
+
+NOTE: Oracle Database 9i는 SnapManager 3.2 및 10g R2(10.2.0.5 이전)에서 지원되지 않습니다. SnapManager 3.3.1에서는 지원되지 않습니다.
+
+SnapManager for Oracle에서 관리할 Oracle 데이터베이스를 구축하는 경우 _ SnapManager for Oracle Best Practices _ 을 참조하십시오.
+
+http://media.netapp.com/documents/tr-3761.pdf["SnapManager for Oracle 모범 사례: media.netapp.com/documents/tr-3761.pdf"]

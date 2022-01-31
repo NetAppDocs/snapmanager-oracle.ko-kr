@@ -1,0 +1,271 @@
+---
+permalink: unix-administration/task_setting_role-based_access_control_capabilities_and_roles.html 
+sidebar: sidebar 
+keywords: enable, role-based, access, control, rbac, snapmanager, snapdrive, capabilities, role, smo 
+summary: 'SnapDrive를 사용하여 SnapManager에 대해 역할 기반 액세스 제어\(RBAC\)를 활성화한 후 역할에 RBAC 기능과 사용자를 추가하여 SnapManager 작업을 수행할 수 있습니다.' 
+---
+= 역할 기반 액세스 제어 기능 및 역할 설정
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapDrive를 사용하여 SnapManager에 대해 RBAC(역할 기반 액세스 제어)를 설정한 후 역할에 RBAC 기능과 사용자를 추가하여 SnapManager 작업을 수행할 수 있습니다.
+
+Data Fabric Manager 서버에서 그룹을 생성한 다음 해당 그룹을 운영 스토리지 시스템과 2차 스토리지 시스템 모두에 추가해야 합니다. 다음 명령을 실행합니다.
+
+* DFM 그룹은 SMO_GRP를 생성한다
+* DFM 그룹은 SMO_grpprimary_storage_system을 추가합니다
+* DFM 그룹은 SMO_grpsecondary_storage_system을 추가합니다
+
+
+Operations Manager 웹 인터페이스 또는 Data Fabric Manager 서버 CLI(명령줄 인터페이스)를 사용하여 RBAC 기능 및 역할을 수정할 수 있습니다.
+
+다음 표에는 SnapManager 작업을 수행하는 데 필요한 RBAC 기능이 나와 있습니다.
+
+|===
+| SnapManager 작업 | 데이터 보호가 설정되어 있지 않은 경우 RBAC 기능이 필요합니다 | 데이터 보호가 설정된 경우 RBAC 기능이 필요합니다 
+
+
+ a| 
+프로필 생성 또는 프로필 업데이트
+ a| 
+SD.Storage.Read(SMO_GRP)
+ a| 
+SD.Storage.Read(SMO_PROFILE 데이터 세트)
+
+
+
+ a| 
+프로파일 보호
+ a| 
+DFM.Database.Write(SMO_GRP)
+
+SD.Storage.Read(SMO_GRP)
+
+SD.Config.Read(SMO_GRP)
+
+SD.Config.Write(SMO_GRP)
+
+SD.Config.Delete(SMO_GRP)
+
+GlobalDataProtection을 참조하십시오
+ a| 
+없음
+
+
+
+ a| 
+백업 생성
+ a| 
+SD.Storage.Read(SMO_GRP)
+
+SD.Snapshot.Write(SMO_GRP)
+
+SD.Snapshot.Read(SMO_GRP)
+
+SD.Snapshot.Delete(SMO_GRP)
+ a| 
+SD.Storage.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Write(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Delete(SMO_PROFILE 데이터 세트)
+
+
+
+ a| 
+백업 생성(DBVERIFY 사용)
+ a| 
+SD.Storage.Read(SMO_GRP)
+
+SD.Snapshot.Write(SMO_GRP)
+
+SD.Snapshot.Read(SMO_GRP)
+
+SD.Snapshot.Delete(SMO_GRP)
+
+sd.snapshot.Clone(SMO_GRP)
+ a| 
+SD.Storage.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Write(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Delete(SMO_PROFILE 데이터 세트)
+
+sd.snapshot.Clone(SMO_profile 데이터 세트)
+
+
+
+ a| 
+백업 생성(RMAN 사용)
+ a| 
+SD.Storage.Read(SMO_GRP)
+
+SD.Snapshot.Write(SMO_GRP)
+
+SD.Snapshot.Read(SMO_GRP)
+
+SD.Snapshot.Delete(SMO_GRP)
+
+sd.snapshot.Clone(SMO_GRP)
+ a| 
+SD.Storage.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Write(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Delete(SMO_PROFILE 데이터 세트)
+
+sd.snapshot.Clone(SMO_profile 데이터 세트)
+
+
+
+ a| 
+백업 복원
+ a| 
+SD.Storage.Read(SMO_GRP)
+
+SD.Snapshot.Write(SMO_GRP)
+
+SD.Snapshot.Read(SMO_GRP)
+
+SD.Snapshot.Delete(SMO_GRP)
+
+sd.snapshot.Clone(SMO_GRP)
+
+SD.Snapshot.Restore(SMO_GRP)
+ a| 
+SD.Storage.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Write(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Delete(SMO_PROFILE 데이터 세트)
+
+sd.snapshot.Clone(SMO_profile 데이터 세트)
+
+SD.Snapshot.Restore(SMO_PROFILE 데이터 세트)
+
+
+
+ a| 
+백업 삭제
+ a| 
+SD.Snapshot.Delete(SMO_GRP)
+ a| 
+SD.Snapshot.Delete(SMO_PROFILE 데이터 세트)
+
+
+
+ a| 
+백업 검증
+ a| 
+SD.Storage.Read(SMO_GRP)
+
+SD.Snapshot.Read(SMO_GRP)
+
+SD.Snapshot.Clone(SMO_GRP))
+ a| 
+SD.Storage.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Clone(SMO_PROFILE 데이터 세트)
+
+
+
+ a| 
+백업 마운트
+ a| 
+SD.Storage.Read(SMO_GRP)
+
+SD.Snapshot.Read(SMO_GRP)
+
+SD.Snapshot.Clone(SMO_GRP)
+ a| 
+SD.Storage.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Clone(SMO_PROFILE 데이터 세트)
+
+
+
+ a| 
+백업 마운트 해제
+ a| 
+SD.Snapshot.Clone(SMO_GRP)
+ a| 
+SD.Snapshot.Clone(SMO_PROFILE 데이터 세트)
+
+
+
+ a| 
+클론 생성
+ a| 
+SD.Storage.Read(SMO_GRP)
+
+SD.Snapshot.Read(SMO_GRP)
+
+sd.snapshot.Clone(SMO_GRP)
+ a| 
+SD.Storage.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Read(SMO_PROFILE 데이터 세트)
+
+sd.snapshot.Clone(SMO_profile 데이터 세트)
+
+
+
+ a| 
+클론 삭제
+ a| 
+SD.Snapshot.Clone(SMO_GRP)
+ a| 
+SD.Snapshot.Clone(SMO_PROFILE 데이터 세트)
+
+
+
+ a| 
+클론 분할
+ a| 
+SD.Storage.Read(SMO_GRP)
+
+SD.Snapshot.Read(SMO_GRP)
+
+sd.snapshot.Clone(SMO_GRP)
+
+SD.Snapshot.Delete(SMO_GRP)
+
+SD.Storage.Write(SMO_GRP)
+ a| 
+SD.Storage.Read(SMO_PROFILE 데이터 세트)
+
+SD.Snapshot.Read(SMO_PROFILE 데이터 세트)
+
+sd.snapshot.Clone(SMO_profile 데이터 세트)
+
+SD.Snapshot.Delete(SMO_PROFILE 데이터 세트)
+
+SD.Storage.Write(SMO_PROFILE 데이터 세트)
+
+|===
+RBAC 기능 정의에 대한 자세한 내용은 _OnCommand Unified Manager 운영 관리자 관리 가이드_를 참조하십시오.
+
+. Operations Manager 콘솔에 액세스합니다.
+. 설정 메뉴에서 * 역할 * 을 선택합니다.
+. 기존 역할을 선택하거나 새 역할을 생성합니다.
+. 데이터베이스 스토리지 리소스에 작업을 할당하려면 * 기능 추가 * 를 클릭합니다.
+. 역할 설정 편집 페이지에서 역할에 대한 변경 사항을 저장하려면 * 업데이트 * 를 클릭합니다.
+
+
+* 관련 정보 *
+
+http://support.netapp.com/documentation/productsatoz/index.html["_OnCommand Unified Manager Operations Manager Administration Guide_: [mysupport.netapp.com/documentation/productsatoz/index.html\](https://mysupport.netapp.com/documentation/productsatoz/index.html)"]

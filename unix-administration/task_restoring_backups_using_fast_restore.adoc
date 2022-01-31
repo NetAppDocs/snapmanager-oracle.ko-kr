@@ -1,0 +1,54 @@
+---
+permalink: unix-administration/task_restoring_backups_using_fast_restore.html 
+sidebar: sidebar 
+keywords: force, snapmanager, oracle, volume-based, snaprestore, restore, process 
+summary: 모든 필수 빠른 복원 적격성 조건이 충족될 경우 Oracle용 SnapManager에서 다른 복원 프로세스 대신 볼륨 기반 SnapRestore 프로세스를 사용하도록 강제할 수 있습니다. 
+---
+= 빠른 복원을 사용하여 백업을 복원합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+모든 필수 빠른 복원 적격성 조건이 충족될 경우 Oracle용 SnapManager에서 다른 복원 프로세스 대신 볼륨 기반 SnapRestore 프로세스를 사용하도록 강제할 수 있습니다.
+
+백업 복원 명령을 -fast: 'backup restore-fast [Require|override|fallback|off]'와 함께 사용할 수 있습니다
+
+전체 백업의 전체 복원을 수행하려는 경우에만 -fast 옵션을 사용할 수 있습니다. fast 옵션에는 다음과 같은 매개 변수가 포함됩니다.
+
+* Require(필수): 모든 필수 복원 적격성 조건이 충족되고 재정의 가능한 검사가 발견되지 않은 경우 볼륨 복원을 수행할 수 있습니다.
++
+fast 옵션을 지정하지만 -fast에 대한 매개 변수를 지정하지 않으면 SnapManager에서는 -Require 매개 변수를 기본값으로 사용합니다.
+
+* 재정의: 비필수 자격 검사를 재정의하고 볼륨 기반 빠른 복원을 수행할 수 있습니다.
+* Fallback(폴백): SnapManager에서 결정하는 방법을 사용하여 데이터베이스를 복원할 수 있습니다.
++
+fast 를 지정하지 않으면 SnapManager 는 -fallback 매개 변수를 기본값으로 사용합니다.
+
+* Off: 빠른 복원 프로세스가 아닌 파일 기반 복원 프로세스를 수행하기 위해 모든 자격 검사를 수행하는 데 걸리는 시간을 피할 수 있습니다.
+
+
+백업이 필수 자격 검사를 통과하지 못하면 빠른 복원이 성공적으로 완료되지 않습니다.
+
+SnapManager는 UNIX 기반 환경에서만 볼륨 기반의 신속한 복원을 수행하며, SnapManager는 Windows 환경에서 빠른 복원을 수행하지 않습니다.
+
+데이터 파일 백업에 VBSR을 수행하는 동안 데이터 파일과 아카이브 로그 파일이 동일한 볼륨에 있고 아카이브 로그 파일이 액티브 파일 시스템에 없는 경우 데이터베이스의 복원 및 복구가 성공합니다. 하지만 향후 아카이브 로그 스냅샷이 VBSR의 일부로 삭제되므로 리포지토리에서 아카이브 로그 백업의 오래된 항목이 생성됩니다.
+
+. smo backup restore-profileprofile_name-labellabel-complete-fast Require-verbose 명령을 입력합니다
++
+[listing]
+----
+smo backup restore -profile targetdb1_prof1
+      -label full_bkup_sales_nov_08  -complete -fast require -verbose
+----
+. 빠른 복원 적격성 검사를 검토합니다.
+. 적격성 검사에서 필수 검사에 실패한 검사가 없는 것으로 확인되고, 특정 조건을 재정의할 수 있고, 복원 프로세스를 계속하려면 backup restore-fast override 명령을 입력합니다
+
+
+* 관련 정보 *
+
+xref:task_creating_pretask_post_task_and_policy_scripts.adoc[사전 작업, 사후 작업 및 정책 스크립트 생성]
+
+xref:concept_variables_available_in_custom_script_for_restore_operation.adoc[복원 작업에 대한 작업 스크립트에서 사용할 수 있는 변수입니다]
+
+xref:task_storing_the_task_scripts.adoc[작업 스크립트 저장]

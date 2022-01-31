@@ -1,0 +1,108 @@
+---
+permalink: unix-installation-cmode/task_preparing_storage_systems_for_snapvault_replication.html 
+sidebar: sidebar 
+keywords: snapmanager, integrated, snapvault, technology, archive, snapshot, copies, disk, configure, data-portection, source, volume, relationship, initialization, snapshot 
+summary: SnapManager의 통합 SnapVault 기술을 사용하여 스냅샷 복사본을 디스크에 아카이브하려면 먼저 소스 볼륨과 타겟 볼륨 간의 데이터 보호 관계를 구성한 다음 관계를 초기화해야 합니다. 초기화 시 SnapVault은 소스 볼륨의 스냅샷 복사본을 생성한 다음 복사본 및 해당 복사본이 대상 볼륨에 참조하는 모든 데이터 블록을 전송합니다. 
+---
+= SnapVault 복제를 위한 스토리지 시스템 준비
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapManager의 통합 SnapVault 기술을 사용하여 스냅샷 복사본을 디스크에 아카이브하려면 먼저 소스 볼륨과 타겟 볼륨 간의 데이터 보호 관계를 구성한 다음 관계를 초기화해야 합니다. 초기화 시 SnapVault은 소스 볼륨의 스냅샷 복사본을 생성한 다음 복사본 및 해당 복사본이 대상 볼륨에 참조하는 모든 데이터 블록을 전송합니다.
+
+* 피어링된 스토리지 가상 시스템(SVM)으로 소스 및 타겟 볼륨을 생성해야 합니다. 자세한 내용은 _Clustered Data ONTAP 클러스터 피어링 익스프레스 가이드_를 참조하십시오.
+* 클러스터 관리자여야 합니다.
+
+
+Data ONTAP CLI(Command-Line Interface) 또는 OnCommand System Manager를 사용하여 SnapVault 관계를 생성할 수 있습니다. 다음 절차에서는 CLI를 사용하는 것으로 가정합니다. OnCommand 시스템 관리자를 사용하여 SnapVault 관계를 생성하는 방법에 대한 자세한 내용은 _Data ONTAP 익스프레스 가이드를 사용하여 SnapVault 볼륨 백업 _ 을(를) 참조하십시오.
+
+다음 그림에서는 SnapVault 관계를 초기화하는 절차를 보여 줍니다.
+
+image::../media/snapvault_steps_clustered.gif[이 그림에서는 SnapVault 관계를 초기화하는 절차, 즉 대상 클러스터를 식별하는 절차를 보여 줍니다,creating a destination volume,creating a policy]
+
+. 대상 클러스터를 식별합니다.
+. 대상 클러스터에서 -typeDP 옵션과 함께 volume create 명령을 사용하여 소스 볼륨보다 크거나 같은 SnapVault 대상 볼륨을 만듭니다.
++
+
+IMPORTANT: 대상 볼륨의 언어 설정은 소스 볼륨의 언어 설정과 일치해야 합니다.
+
++
+다음 명령을 실행하면 애그리게이트 node01_aggr의 SVM2에서 dstvolB라는 이름의 2GB 대상 볼륨이 생성됩니다.
+
++
+[listing]
+----
+cluster2::> volume create -vserver SVM2 -volume dstvolB -aggregate node01_aggr -type DP
+-size 2GB
+----
+. 대상 SVM에서 create 명령을 사용하여 SnapVault 정책을 생성합니다.
++
+다음 명령을 실행하면 SVM 전체의 정책 SVM1-vault가 생성됩니다.
+
++
+[listing]
+----
+SVM2::> snapmirror policy create -vserver SVM2 -policy SVM1-vault
+----
++
+
+NOTE: SnapVault 관계에 대해 cron 일정 또는 스냅샷 복사본 정책을 정의하지 마십시오. SnapManager는 백업 스케줄을 생성할 때 이 작업을 수행합니다.
+
+. SnapMirror 정책 추가 규칙 명령을 사용하여 각 레이블에 대해 다음 스냅샷 복사본 레이블 및 보존 정책을 정의하는 규칙을 정책에 추가합니다.
++
+** 매일
+** 매주
+** 매월
+** 매시간
+** 무제한 * 중요: * 레이블은 대/소문자를 구분합니다.
+
+
++
+SnapManager에서 사용하는 고정 레이블입니다. 백업을 보관할 때 다음 옵션 중 하나를 선택합니다. 추가하는 각 규칙에 대해 이 명령을 한 번 실행해야 합니다.
+
++
++다음 명령은 "일일" 레이블을 정의하는 SVM1 볼트 정책에 규칙을 추가하고 레이블과 일치하는 스냅샷 복사본 30개를 볼트에 보관해야 한다고 지정합니다.
+
++
+를 누릅니다
+
++
+[listing]
+----
+SVM2::> snapmirror policy add-rule -vserver SVM2 -policy SVM1-vault
+-snapmirror-label Daily -keep 30
+----
+. SnapVault 관계를 생성하고 볼트 정책을 할당하려면 -type XDP 매개 변수 및 -policy 매개 변수와 함께 SnapMirror create 명령을 사용합니다.
++
+XDP 유형은 관계를 SnapVault 관계로 정의합니다.
+
++
+다음 명령을 실행하면 SVM1의 소스 볼륨 srcvolA와 SVM2의 대상 볼륨 dstvolB 사이에 SnapVault 관계가 생성됩니다. SVM1-vault라는 정책을 할당합니다.
+
++
+[listing]
+----
+SVM2::> snapmirror create -source-path SVM1:srcvolA -destination-path SVM2:dstvolB
+-type XDP -policy SVM1-vault
+----
+. SnapMirror initialize 명령을 사용하여 관계를 초기화합니다.
++
+초기화 프로세스는 대상 볼륨에 대한 기본 전송을 수행합니다. SnapMirror는 소스 볼륨의 스냅샷 복사본을 만든 다음 복사본과 이 복사본이 대상 볼륨에 참조하는 모든 데이터 블록을 전송합니다.
+
++
+다음 명령을 실행하면 SVM1의 소스 볼륨 srcvolA와 SVM2의 대상 볼륨 dstvolB 간의 관계가 초기화됩니다.
+
++
+[listing]
+----
+SVM2::> snapmirror initialize -destination-path SVM2:dstvolB
+----
+
+
+* 관련 정보 *
+
+https://library.netapp.com/ecm/ecm_download_file/ECMP1547469["Clustered Data ONTAP 8.3 클러스터 피어링 익스프레스 가이드"]
+
+https://library.netapp.com/ecm/ecm_download_file/ECMP1653496["SnapVault 익스프레스 가이드를 사용하여 clustered Data ONTAP 8.3 볼륨 백업"]

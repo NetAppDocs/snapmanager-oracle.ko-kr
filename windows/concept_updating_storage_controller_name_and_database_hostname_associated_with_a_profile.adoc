@@ -1,0 +1,13 @@
+---
+permalink: windows/concept_updating_storage_controller_name_and_database_hostname_associated_with_a_profile.html 
+sidebar: sidebar 
+keywords: storage, system, host, name, address, target, database, profile, update, updating 
+summary: SnapManager 3.3 이상을 사용하면 스토리지 시스템 호스트 이름 또는 스토리지 시스템 주소, SnapManager 프로파일과 연결된 타겟 데이터베이스 호스트 이름을 업데이트할 수 있습니다. 
+---
+= 프로파일과 연결된 스토리지 시스템 이름 및 타겟 데이터베이스 호스트 이름을 업데이트하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapManager 3.3 이상을 사용하면 스토리지 시스템 호스트 이름 또는 스토리지 시스템 주소, SnapManager 프로파일과 연결된 타겟 데이터베이스 호스트 이름을 업데이트할 수 있습니다.

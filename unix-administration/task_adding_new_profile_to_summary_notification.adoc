@@ -1,0 +1,22 @@
+---
+permalink: unix-administration/task_adding_new_profile_to_summary_notification.html 
+sidebar: sidebar 
+keywords: configure, summary, email, notification, repository, database, add, new, profile 
+summary: 저장소 데이터베이스에 대한 요약 전자 메일 알림을 구성한 후 요약 알림 명령을 사용하여 요약 알림에 새 프로필을 추가할 수 있습니다. 
+---
+= 요약 e-메일 알림에 새 프로필 추가
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+저장소 데이터베이스에 대한 요약 전자 메일 알림을 구성한 후 요약 알림 명령을 사용하여 요약 알림에 새 프로필을 추가할 수 있습니다.
+
+. 다음 명령을 입력합니다. smo profile create -profileprofile_name [-profile -passwordprofile_password] -repository -dbnamerepo_service_name -hostresteppo_host -login -database -dbnamedb_dbname]{usernersename]{usernersentname -login_namportname]{usernameuser_username]{usernersentname -durnostalportname -durnostalportname]
++
+이 명령의 다른 옵션은 다음과 같습니다.
+
++
+[-force]
+
+

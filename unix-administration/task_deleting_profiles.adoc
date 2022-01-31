@@ -1,0 +1,20 @@
+---
+permalink: unix-administration/task_deleting_profiles.html 
+sidebar: sidebar 
+keywords: delete, profile, anytime, contain, succesful, incomplete, backup, deleting, smo 
+summary: 성공했거나 불완전한 백업이 포함되어 있지 않으면 언제든지 프로필을 삭제할 수 있습니다. 확보되거나 삭제된 백업이 포함된 프로필을 삭제할 수 있습니다. 
+---
+= 프로파일을 삭제하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+성공했거나 불완전한 백업이 포함되어 있지 않으면 언제든지 프로필을 삭제할 수 있습니다. 확보되거나 삭제된 백업이 포함된 프로필을 삭제할 수 있습니다.
+
+. 프로파일을 삭제하려면 'smo profile delete -profile profile profile_name' 명령을 입력합니다
+
+
+* 관련 정보 *
+
+xref:reference_the_smosmsapprofile_delete_command.adoc[SMO 프로필 삭제 명령]

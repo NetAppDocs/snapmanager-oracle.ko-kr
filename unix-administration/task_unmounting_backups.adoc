@@ -1,0 +1,30 @@
+---
+permalink: unix-administration/task_unmounting_backups.html 
+sidebar: sidebar 
+keywords: snapmanager, automatic, unmount, backup, unavailable, host, server, asm, smo 
+summary: 'SnapManager는 호스트 서버에서 백업을 사용할 수 없도록 자동으로 백업을 마운트 해제합니다. 또한 Oracle RMAN(복구 관리자\)과 같은 외부 툴을 사용하는 경우 SnapManager를 통해 마운트 해제하고, 백업의 파일에 액세스하고, 액세스를 제거하기 위해 백업 상태를 변경할 수 있습니다.' 
+---
+= 백업 마운트 해제
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapManager는 호스트 서버에서 백업을 사용할 수 없도록 자동으로 백업을 마운트 해제합니다. 또한 Oracle RMAN(Recovery Manager)과 같은 외부 툴을 사용하여 백업의 파일에 액세스하고 액세스를 제거하기 위해 백업 상태를 변경하는 경우에도 SnapManager를 통해 마운트 해제할 수 있습니다.
+
+원격 호스트에서 데이터베이스 백업을 마운트 해제하는 경우 두 호스트 모두에서 ASM(Automatic Storage Management) 자격 증명이 동일한지 확인해야 합니다.
+
+백업 마운트 해제 작업이 성공하거나 실패한 후에 덤프 파일을 선택적으로 수집할 수 있습니다.
+
+마운트 지점이 사용 중인 경우(예: - [error] flow-11019: 연결 해제 실패: SD-10046: 마운트 지점이 다음 마운트 경로 및 PID의 /opt/netapp/smo/mnt/mnt-nuse_nfsvrdb_arch-2012042303과 함께 사용 중인 경우) 오류 메시지와 함께 마운트 해제 작업이 실패할 수 있습니다.
+
+마운트 해제 작업의 실패를 초래하는 세션의 PID를 식별해야 합니다. kill pid 명령을 실행하여 세션을 중단한다
+
+그런 다음 마운트 해제 작업을 성공적으로 실행할 수 있습니다.
+
+. 'smo backup unmount -profile profile_name{labellabel [data|-archivelogs]|-iDID} [-quiet|-verbose] -dump-force-verbose' 명령을 입력합니다
+
+
+* 관련 정보 *
+
+xref:reference_the_smosmsapbackup_unmount_command.adoc[SMO 백업 마운트 해제 명령]

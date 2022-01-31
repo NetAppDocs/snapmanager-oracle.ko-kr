@@ -1,0 +1,13 @@
+---
+permalink: unix-administration/index.html 
+sidebar: sidebar 
+keywords: administration, guide, unix, 3.4.2 
+summary: UNIX ® 용 SnapManager 3.4.2 관리 가이드 
+---
+= UNIX ® 관리 가이드
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 가이드에서는 제품 구성, 업그레이드 및 제거 방법, 데이터베이스 백업, 복원 및 복제 방법 등 구축 완료 후 UNIX 환경에서 Oracle용 SnapManager 3.4.2를 관리하는 방법에 대해 설명합니다.

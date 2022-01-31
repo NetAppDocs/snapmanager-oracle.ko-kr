@@ -1,0 +1,58 @@
+---
+permalink: unix-administration/reference_the_smosmsap_profile_destroy_command.html 
+sidebar: sidebar 
+keywords: command, delete, split, clone, database, profile, generate, snapmanager, process 
+summary: '이 명령은 클론 분할 프로세스 중에 SnapManager에서 생성한 프로파일과 함께 분할 클론 \(데이터베이스\)을 삭제합니다.' 
+---
+= SMO 프로필 삭제 명령
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 명령은 클론 분할 프로세스 중에 SnapManager에서 생성한 프로파일과 함께 분할 클론(데이터베이스)을 삭제합니다.
+
+
+
+== 구문
+
+[listing]
+----
+
+        smo profile destroy
+-profile profile
+\[-host hostname\]
+\[-quiet \| -verbose\]
+----
+
+
+== 매개 변수
+
+* * - 프로파일 프로파일 *
++
+클론 분할 프로세스가 성공한 후 SnapManager에서 생성하는 프로파일을 지정합니다.
+
+* * -호스트 호스트 호스트 이름 *
++
+분할 클론이 존재하는 호스트 이름을 지정합니다.
+
+* * -저소음 *
++
+콘솔에 오류 메시지만 표시합니다. 기본값은 오류 및 경고 메시지를 표시하는 것입니다.
+
+* * - 자세한 정보 표시 *
++
+콘솔에 오류, 경고 및 정보 메시지를 표시합니다.
+
+
+
+
+
+== 명령 예
+
+다음 예제에서는 sales1이라는 이름의 프로필을 삭제합니다.
+
+[listing]
+----
+smo profile destroy -profile SALES1
+----

@@ -1,0 +1,30 @@
+---
+permalink: unix-administration/concept_details_of_the_target_database.html 
+sidebar: sidebar 
+keywords: integrated, database, protection, payroll, techco, dba, 3000-person, atlanta 
+summary: 이 통합 데이터베이스 보호 예에서는 급여 데이터베이스 보호에 대해 설명합니다. 이 예에서는 다음 데이터가 사용됩니다. 
+---
+= 대상 데이터베이스의 세부 정보입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 통합 데이터베이스 보호 예에서는 급여 데이터베이스 보호에 대해 설명합니다. 이 예에서는 다음 데이터가 사용됩니다.
+
+애틀랜타에 본사를 둔 3,000명의 회사, TechCo의 데이터베이스 관리자(DBA)는 운영 급여 데이터베이스(PAYDB)의 일관된 백업을 만들어야 합니다. 운영 스토리지와 보조 스토리지에 백업하기 위한 보호 전략에서는 DBA와 스토리지 관리자가 함께 협력하여 운영 스토리지의 Oracle 데이터베이스를 로컬로 그리고 원격 위치의 보조 스토리지로 백업해야 합니다.
+
+* * 프로필 정보 *
++
+SnapManager에서 프로파일을 만들 때 다음 데이터가 필요합니다.
+
++
+** 데이터베이스 이름: PAYDB
+** 호스트 이름: payroll.techco.com
+** 데이터베이스 ID: paolldb
+** 프로필 이름: payroll_prod
+** 연결 모드: 데이터베이스 인증
+** 스냅샷 명명 체계: smo_hostname_dbsid_smprofile_scope_mode_smid("smo_payroll.xyz.com_payrolldb_payroll_prod_f_h_x" 변환)
+
+
+

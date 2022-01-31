@@ -1,0 +1,21 @@
+---
+permalink: windows/task_verifying_the_oracle_listener_status.html 
+sidebar: sidebar 
+keywords: verify, oracle, listener, status, lsnrctl, command 
+summary: lsnrctl status 명령을 사용하여 Oracle 리스너 상태를 확인할 수 있습니다. 
+---
+= Oracle 리스너 상태를 확인하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+lsnrctl status 명령을 사용하여 Oracle 리스너 상태를 확인할 수 있습니다.
+
+* 데이터베이스에 연결해야 합니다.
+
+
+표준 Oracle 설치는 데이터베이스의 리스너 포트를 1521로 설정합니다.
+
+. 명령 프롬프트에서 lsnrctl status 명령을 입력합니다
+

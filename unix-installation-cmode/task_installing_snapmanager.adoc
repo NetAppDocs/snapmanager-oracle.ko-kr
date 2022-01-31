@@ -1,0 +1,56 @@
+---
+permalink: unix-installation-cmode/task_installing_snapmanager.html 
+sidebar: sidebar 
+keywords: install, snapmanager, host, database, backup, running 
+summary: 백업할 데이터베이스가 실행 중인 각 호스트에 SnapManager를 설치해야 합니다. 
+---
+= SnapManager를 설치하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+백업할 데이터베이스가 실행 중인 각 호스트에 SnapManager를 설치해야 합니다.
+
+데이터베이스 호스트에 UNIX용 SnapDrive를 설치하고 스토리지 시스템에 대한 접속을 설정해야 합니다.
+
+SnapDrive를 설치하고 스토리지 시스템에 대한 접속을 설정하는 방법에 대한 자세한 내용은 UNIX용 SnapDrive 설명서를 참조하십시오.
+
+데이터베이스 호스트당 하나의 SnapManager 인스턴스를 설치해야 합니다. RAC(Real Application Cluster) 데이터베이스를 사용하고 있고 RAC 데이터베이스를 백업하려면 RAC 데이터베이스의 모든 호스트에 SnapManager를 설치해야 합니다.
+
+. SnapManager 지원 사이트에서 UNIX용 Oracle 설치 패키지를 다운로드하여 호스트 시스템에 복사하십시오.
++
+http://mysupport.netapp.com/NOW/cgi-bin/software["NetApp 다운로드: 소프트웨어"]
+
+. 데이터베이스 호스트에 루트 사용자로 로그인합니다.
+. 명령 프롬프트에서 설치 패키지를 복사한 디렉토리로 이동합니다.
+. 설치 패키지를 실행 가능한 상태로 만듭니다. chmod 755install_package.bin
+. SnapManager:./install_package.bin 를 설치합니다
+. Enter 키를 눌러 계속합니다.
+. 다음 단계를 수행하십시오.
++
+.. Enter 키를 눌러 운영 체제 사용자의 기본값을 적용합니다.
++
+사용자의 기본값은 Oracle입니다.
+
+.. Enter 키를 눌러 운영 체제 그룹의 기본값을 적용합니다.
++
+그룹의 기본값은 DBA입니다.
+
+.. Enter 키를 눌러 시작 유형에 대한 기본값을 적용합니다.
+
+
++
+구성 요약이 표시됩니다.
+
+. 구성 요약을 검토하고 Enter 키를 눌러 계속합니다.
++
+SnapManager는 Solaris 및 /opt/NetApp/기타 모든 UNIX 호스트에 대해 /opt/NTAPsmo에 설치됩니다.
+
+
+
+* 관련 정보 *
+
+xref:task_setting_up_snapmanager.adoc[SnapManager 설정]
+
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=30050["NetApp 설명서: UNIX용 SnapDrive"]

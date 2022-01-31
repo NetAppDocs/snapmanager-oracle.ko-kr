@@ -1,0 +1,34 @@
+---
+permalink: windows/concept_general_layout_and_configuration.html 
+sidebar: sidebar 
+keywords: general, layout, configuration, information, storage, disk, group 
+summary: 디스크 그룹, 파일 유형 및 테이블스페이스와 관련된 문제를 방지하기 위해 권장되는 일반 데이터베이스 레이아웃 및 스토리지 구성에 대한 정보를 찾을 수 있습니다. 
+---
+= 일반 레이아웃 및 구성
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+디스크 그룹, 파일 유형 및 테이블스페이스와 관련된 문제를 방지하기 위해 권장되는 일반 데이터베이스 레이아웃 및 스토리지 구성에 대한 정보를 찾을 수 있습니다.
+
+* 데이터베이스에 둘 이상의 SAN 파일 시스템 유형의 파일을 포함하지 마십시오.
++
+데이터베이스를 구성하는 모든 파일은 동일한 유형의 파일 시스템에 있어야 합니다.
+
+* SnapManager에는 4K 블록 크기의 배수도 필요합니다.
+* SnapManager 백업을 Oracle RMAN(Recovery Manager)에 등록하려면 RMAN 사용 프로필을 생성해야 합니다.
+
+
+다음은 볼륨 분리를 위한 몇 가지 지침입니다.
+
+* 한 데이터베이스의 데이터 파일만 볼륨에 있어야 합니다.
+* 데이터베이스 바이너리, 데이터 파일, 온라인 redo 로그 파일, 아카이빙된 redo 로그 파일, 제어 파일 등 각 파일 분류에 대해 별도의 볼륨을 사용해야 합니다.
+* SnapManager는 임시 데이터베이스 파일을 백업하지 않으므로 임시 데이터베이스 파일을 위한 별도의 볼륨을 생성할 필요가 없습니다.
+
+
+자세한 내용은 _ SnapManager for Oracle Best Practices _ 를 참조하십시오.
+
+* 관련 정보 *
+
+http://media.netapp.com/documents/tr-3761.pdf["SnapManager for Oracle 모범 사례: media.netapp.com/documents/tr-3761.pdf"]

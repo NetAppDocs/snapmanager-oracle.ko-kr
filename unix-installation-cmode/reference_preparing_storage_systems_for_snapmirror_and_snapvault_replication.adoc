@@ -1,0 +1,24 @@
+---
+permalink: unix-installation-cmode/reference_preparing_storage_systems_for_snapmirror_and_snapvault_replication.html 
+sidebar: sidebar 
+keywords: snapmanager, data, ontap, snapmirror, technology, mirror, copies, create, bakup, volume, initialize, relationship 
+summary: SnapManager with Data ONTAP SnapMirror 기술을 사용하여 다른 볼륨에 백업 세트의 미러 복사본을 만들고 Data ONTAP SnapVault 기술을 사용하여 백업을 디스크에 효율적으로 아카이브할 수 있습니다. SnapManager에서 이러한 작업을 수행하려면 먼저 소스 볼륨과 타겟 볼륨 간의 데이터 보호 관계를 구성하고 관계를 초기화해야 합니다. 
+---
+= SnapMirror 및 SnapVault 복제를 위한 스토리지 시스템 준비
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapManager with Data ONTAP SnapMirror 기술을 사용하여 다른 볼륨에 백업 세트의 미러 복사본을 만들고 Data ONTAP SnapVault 기술을 사용하여 백업을 디스크에 효율적으로 아카이브할 수 있습니다. SnapManager에서 이러한 작업을 수행하려면 먼저 소스 볼륨과 타겟 볼륨 간의 데이터 보호 관계를 구성하고 관계를 초기화해야 합니다.
+
+
+NOTE: 동일한 clustered Data ONTAP 소스 볼륨에서 SnapMirror 관계 및 SnapVault 관계를 구성할 수 없습니다. 서로 다른 소스 볼륨에서 이러한 관계를 구성해야 합니다.
+
+* 관련 정보 *
+
+xref:concept_understanding_the_differences_between_snapmirror_and_snapvault.adoc[SnapMirror와 SnapVault 간의 차이점 이해]
+
+xref:task_preparing_storage_systems_for_snapmirror_replication.adoc[SnapMirror 복제를 위한 스토리지 시스템 준비]
+
+xref:task_preparing_storage_systems_for_snapvault_replication.adoc[SnapVault 복제를 위한 스토리지 시스템 준비]

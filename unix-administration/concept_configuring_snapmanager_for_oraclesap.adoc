@@ -1,0 +1,13 @@
+---
+permalink: unix-administration/concept_configuring_snapmanager_for_oraclesap.html 
+sidebar: sidebar 
+keywords: install, snapmanager, additional, configuration, environment, configure 
+summary: SnapManager를 설치한 후에는 사용 중인 환경에 따라 몇 가지 추가 구성 작업을 수행해야 합니다. 
+---
+= SnapManager 구성
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapManager를 설치한 후에는 사용 중인 환경에 따라 몇 가지 추가 구성 작업을 수행해야 합니다.

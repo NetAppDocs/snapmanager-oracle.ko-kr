@@ -1,0 +1,38 @@
+---
+permalink: unix-administration/task_configuring_snapdrive_when_rbac_is_enabled.html 
+sidebar: sidebar 
+keywords: role-based, access, control, rbac, enable, configure, datafabric, manager, capabilities, manager, server, snapdrive 
+summary: '역할 기반 액세스 제어\(RBAC\)가 활성화된 경우 RBAC 기능을 포함하도록 DataFabric Manager 서버를 구성해야 합니다. 또한 DataFabric Manager 서버에서 생성한 SnapDrive 사용자와 SnapDrive에서 스토리지 시스템의 루트 사용자를 등록해야 합니다.' 
+---
+= RBAC가 활성화된 경우 DataFabric Manager 서버 및 SnapDrive 구성
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+역할 기반 액세스 제어(RBAC)가 활성화된 경우 RBAC 기능을 포함하도록 DataFabric Manager 서버를 구성해야 합니다. 또한 DataFabric Manager 서버에서 생성한 SnapDrive 사용자와 SnapDrive에서 스토리지 시스템의 루트 사용자를 등록해야 합니다.
+
+. DataFabric Manager 서버를 구성합니다.
++
+.. DataFabric Manager 서버를 새로 고쳐 대상 데이터베이스에서 스토리지 시스템의 변경 사항을 직접 업데이트하려면 다음 명령을 입력합니다. DFM host Discover storage_system
+.. DataFabric Manager 서버에서 새 사용자를 생성하고 암호를 설정합니다.
+.. DataFabric Manager 서버 관리 목록에 운영 체제 사용자를 추가하려면 DFM user add SD-admin 명령을 입력합니다
+.. DataFabric Manager 서버에서 새 역할을 생성하려면 DFM role create sd-admin-role 명령을 입력합니다
+.. 역할에 DFM.Core.AccessCheck 전역 기능을 추가하려면 DFM role add sd-admin-role DFM.Core.AccessCheck Global 명령을 입력합니다
+.. 운영 체제 사용자에게 sd-admin-role을 추가하려면 DFM user role set sd-adminsd-admin-role 명령을 입력합니다
+.. SnapDrive 루트 사용자의 DataFabric Manager 서버에 다른 역할을 생성하려면 DFM role create SD-Protect 명령을 입력합니다
+.. SnapDrive 루트 사용자 또는 관리자를 위해 생성된 역할에 RBAC 기능을 추가하려면 DFM 역할 ADD SD-Protect SD.CONFIG.Read Globaldfm role ADD SD-Protect SD.CONFIG.Write Globaldfm role ADD SD-Protect SD.CONFIG.Delete Globaldfm role ADD SD-Protect SD.Storage.Read Globaldfm Role ADD SD-Protect GlobalDFM.SD-SD-SD.ADD.ADD.SD-SD-Protect GlobalDFM.ADD.ADD.ADD.SD.ADD.SD.SD.ADD.ADD.SD.SD.SD.ADD.ADD.SD
+.. 대상 데이터베이스 Oracle 사용자를 DataFabric Manager 서버의 관리자 목록에 추가하고 SD 보호 역할을 할당하려면 다음 명령을 입력합니다. DFM user add -r sd-protectardb_host1\oracle
+.. DataFabric Manager 서버에서 대상 데이터베이스에서 사용하는 스토리지 시스템을 추가하려면 다음 명령을 입력합니다. DFM host set storage_system hostLogin=Oracle hostPassword=password
+.. DataFabric Manager 서버의 타겟 데이터베이스에서 사용하는 스토리지 시스템에 새 역할을 생성하려면 DFM 호스트 역할 create -h storage_system -c "api- *, login- *" storage-RBAC-role 명령을 입력합니다
+.. 스토리지 시스템에 새 그룹을 생성하고 DataFabric Manager 서버에 생성된 새 역할을 할당하려면 다음 명령을 입력합니다.DFM 호스트 사용자 그룹 create -h storage_system -r storage -RBAC -rolestorage -RBAC -group
+.. 스토리지 시스템에 새 사용자를 생성하고 DataFabric Manager 서버에 생성된 그룹과 새 역할을 할당하려면 다음 명령을 입력합니다.dFM 호스트 사용자 create -h storage_system -r storage -RBAC -role -p password -g storage -RBAC -g라우팅점_host1
+
+
+. SnapDrive를 구성합니다.
++
+.. SnapDrive에 SD-admin 사용자의 자격 증명을 등록하려면 SnapDrive 구성 세트 -DFM SD-admindfm_host 명령을 입력합니다
+.. SnapDrive에 스토리지 시스템의 루트 사용자 또는 관리자를 등록하려면 SnapDrive 구성 설정 tardb_host 1st 스토리지_system 명령을 입력합니다
+
+
+

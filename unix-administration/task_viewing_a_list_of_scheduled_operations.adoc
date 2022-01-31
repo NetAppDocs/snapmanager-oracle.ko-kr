@@ -1,0 +1,16 @@
+---
+permalink: unix-administration/task_viewing_a_list_of_scheduled_operations.html 
+sidebar: sidebar 
+keywords: view, list, schedule, operation, profile, smo 
+summary: 프로필에 대해 예약된 작업 목록을 볼 수 있습니다. 
+---
+= 예약된 작업 목록 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+프로필에 대해 예약된 작업 목록을 볼 수 있습니다.
+
+. 예약된 작업에 대한 정보를 표시하려면 'smo schedule list -profile profile profile_name[-quiet | -verbose]' 명령을 입력합니다
+

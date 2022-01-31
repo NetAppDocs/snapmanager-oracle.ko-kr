@@ -1,0 +1,35 @@
+---
+permalink: windows/task_cloning_a_database_to_an_alternate_host.html 
+sidebar: sidebar 
+keywords: clone, create, command, database, alternate, host, cloning 
+summary: 클론 생성 명령을 사용하여 대체 호스트에서 데이터베이스 백업을 클론 복제할 수 있습니다. 
+---
+= 대체 호스트에 데이터베이스 클론 생성
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+클론 생성 명령을 사용하여 대체 호스트에서 데이터베이스 백업을 클론 복제할 수 있습니다.
+
+* 프로파일을 만들거나 기존 프로파일을 가지고 있습니다.
+* 전체 백업을 생성하거나 기존 데이터베이스 백업을 사용합니다.
+* 클론 사양을 생성하거나 기존 클론 사양을 가지고 있습니다.
++
+.. 데이터베이스를 대체 호스트로 복제하려면 SMO clone create -backup -label backup_label_name -nfsid new_sid -host target_host -label clone_label -commentcomment_text -profileprofile_name -clonespec full_path_to_clonespecfile 명령을 입력합니다
++
+Oracle에서는 동일한 호스트에서 동일한 SID로 두 데이터베이스를 동시에 실행할 수 없습니다. 따라서 각 클론에 대해 새 SID를 제공해야 합니다. 그러나 동일한 SID를 가진 다른 호스트에 데이터베이스를 가질 수 있습니다.
+
+
+
+
+
+* 관련 정보 *
+
+xref:task_creating_profiles.adoc[프로파일 작성]
+
+xref:task_cloning_databases_from_backups.adoc[백업에서 데이터베이스 클론 생성]
+
+xref:task_creating_clone_specifications.adoc[클론 사양 생성 중]
+
+xref:reference_the_smosmsapclone_create_command.adoc[SMO 복제 create 명령]

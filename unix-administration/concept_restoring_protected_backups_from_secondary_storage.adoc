@@ -1,0 +1,21 @@
+---
+permalink: unix-administration/concept_restoring_protected_backups_from_secondary_storage.html 
+sidebar: sidebar 
+keywords: restore, protect, backup, secondary, storage 
+summary: 보조 스토리지에서 보호된 백업을 복원할 수 있습니다. 그러나 백업이 운영 스토리지에도 있는 경우에는 보조 스토리지에서 백업을 복원할 수 없습니다. 
+---
+= 보조 스토리지에서 보호된 백업 복원
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+보조 스토리지에서 보호된 백업을 복원할 수 있습니다. 그러나 백업이 운영 스토리지에도 있는 경우에는 보조 스토리지에서 백업을 복원할 수 없습니다.
+
+* 관련 정보 *
+
+xref:reference_the_smosmsapbackup_restore_command.adoc[SMO 백업 복원 명령]
+
+xref:task_restoring_backups_from_an_alternate_location.adoc[대체 위치에서 백업을 복원합니다]
+
+xref:task_creating_restore_specifications.adoc[복구 사양 생성 중]

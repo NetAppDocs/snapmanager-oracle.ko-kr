@@ -1,0 +1,23 @@
+---
+permalink: windows/task_authorizing_user_access_to_the_repository.html 
+sidebar: sidebar 
+keywords: snapmanager, enable, credential, database, access, repository, restrict, prevent 
+summary: SnapManager를 사용하면 데이터베이스 사용자가 리포지토리에 액세스할 수 있도록 자격 증명을 설정할 수 있습니다. 자격 증명을 사용하여 SnapManager 호스트, 저장소, 프로필 및 데이터베이스에 대한 액세스를 제한하거나 제한할 수 있습니다. 
+---
+= 리포지토리에 대한 액세스 권한을 부여하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapManager를 사용하면 데이터베이스 사용자가 리포지토리에 액세스할 수 있도록 자격 증명을 설정할 수 있습니다. 자격 증명을 사용하여 SnapManager 호스트, 저장소, 프로필 및 데이터베이스에 대한 액세스를 제한하거나 제한할 수 있습니다.
+
+자격 증명 세트 명령을 사용하여 자격 증명을 설정하는 경우 SnapManager에서 암호를 묻는 메시지를 표시하지 않습니다.
+
+SnapManager 이상을 설치할 때 사용자 자격 증명을 설정할 수 있습니다.
+
+. 다음 명령을 입력합니다.
++
+SMO 자격 증명 세트 -repository -dbname repo_service_name -host repo_host -login -username repo_username [-password repo_password] -port repo_port
+
+

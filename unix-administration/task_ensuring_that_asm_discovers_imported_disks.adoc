@@ -1,0 +1,73 @@
+---
+permalink: unix-administration/task_ensuring_that_asm_discovers_imported_disks.html 
+sidebar: sidebar 
+keywords: automatic, storage, management, asm, nfs, environment, install, snapmanager, discover, import, disk, snapmanager 
+summary: 'NFS 환경에서 자동 스토리지 관리\(ASM\)를 사용하는 경우 SnapManager를 설치한 후 ASM이 SnapManager에서 가져온 디스크를 검색할 수 있는지 확인해야 합니다. ASM 디렉토리의 경로를 ASM_DISKSTRING 매개변수에 추가하여 이 작업을 수행할 수 있습니다.' 
+---
+= ASM이 가져온 디스크를 검색하는지 확인합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NFS 환경에서 ASM(자동 스토리지 관리)을 사용하는 경우 SnapManager를 설치한 후 ASM이 SnapManager에서 가져온 디스크를 검색할 수 있는지 확인해야 합니다. ASM 디렉토리의 경로를 ASM_DISKSTRING 매개변수에 추가하여 이 작업을 수행할 수 있습니다.
+
+Oracle 도구를 사용하여 ASM_DISKSTRING 매개변수를 편집할 수 있습니다. ASM_DISKSTRING 편집에 대한 자세한 내용은 Oracle 설명서를 참조하십시오.
+
+ASM 디스크 경로 /opt/NetApp/SMO/mnt/ */ * /disk * '는 ASM_DISKSTRING 매개변수에 정의된 기존 경로에 추가해야 합니다. 예를 들어, ASM_DISKSTRING에 정의된 경로가 /mnt/my-ASM-disks/dir1/disk*인 경우 ASM 디스크 경로를 추가한 후 업데이트된 경로는 '/mnt/my-ASM-disks/dir1/disk*, /opt/netapp/smo/mnt/*/ * /disk *'가 됩니다.
+
+
+NOTE: ASM_DISKSTRING 매개변수는 ASM 디스크 파일만 일치시키고 다른 파일은 일치시킬 수 없습니다.
+
+* 첫 번째 별표(*)는 SnapManager에서 루트 마운트 지점에 대해 생성한 이름을 나타냅니다.
+* 두 번째 * 는 마운트 지점 내의 디렉토리를 나타냅니다.
+* 세 번째 * 는 NFS 파일의 이름을 나타냅니다.
+
+
+디스크가 /opt/NetApp/SMO/mnt/<SMO-Generated-name>/ 아래의 디렉토리에 마운트된 경우, 해당 * 가 NFS 파일 시스템의 토폴로지와 일치하는지 확인해야 합니다.
+
+. NAS(Network Attached Storage) 환경에서 ASM 디스크를 NFS와 함께 사용하는 경우 ASM_DISKSTRING 매개변수를 편집하여 현재 ASM 디렉토리 경로를 가리키도록 합니다.
++
+ASM 디스크 마운트 지점이 /mnt/my-ASM-disks/*/disk*인 경우 ASM_DISKSTRING을 편집한 후 업데이트된 경로는 /opt/NetApp/SMO/mnt/my-ASM-disks-20081012/disk1.nfs입니다. ASM_DISKSTRING 매개변수는 /opt/NetApp/SMO/mnt/ * /disk * 형식입니다.
+
++
+** 첫 번째 * 는 my-ASM-disks-20081012와 일치합니다.
+** disk * 는 disk1.nfs와 일치합니다. ASM_DISKSTRING 매개변수를 편집한 후 SnapManager에서 가져온 디스크를 검색하는 ASM의 결과는 다음과 같습니다.
+** NFS 디스크1의 ASM 클론은 /opt/netapp/smo/mnt/-mnt-my-ASM-disks-20081012/dir1/disk1.nfs입니다.
+** NFS disk2의 ASM 클론은 /opt/netapp/smo/mnt/-mnt-my-ASM-disks-20081012/dir1/disk2.nfs입니다. ASM_DISKSTRING 매개변수는 /opt/NetApp/SMO/mnt/ */ */ * /disk * 형식입니다.
+** 첫 번째 * 는 -mnt-my-ASM-disks-20081012와 일치합니다.
+** 두 번째 * 는 dir1과 일치합니다.
+** 세 번째 * 는 disk1.nfs 및 disk2.nfs와 일치합니다.
+
+
+. SAN(Storage Area Network) 환경에서 ASM 디스크를 사용하는 경우 환경에 따라 다음 중 하나를 수행합니다.
++
+|===
+| ASM 디스크를 사용하는 경우... | 그러면... 
+
+
+ a| 
+Linux에서 FCP 및 iSCSI를 통한 ASMlib
+ a| 
+문자 장치만 사용하여 Oracle 소프트웨어 소유자 및 사용자의 기본 그룹의 권한을 변경합니다. ASM_DISKSTRING 경로는 ASM DISKSTRING=ORCL: * 이어야 합니다.
+
+
+
+ a| 
+AIX의 FCP 및 iSCSI
+ a| 
+ASM 디렉토리 경로가 될 때까지 ASM_DISKSTRING 매개변수의 경로 이름을 추가합니다. ASM_DISKSTRING 경로는 ASM DISKSTRING=/dev/hdsk/*이어야 하며, 여기서 * 는 ASM 디스크 이름을 나타냅니다.
+
+
+
+ a| 
+Solaris에서 FCP 및 iSCSI
+ a| 
+ASM 디렉토리 경로가 될 때까지 ASM_DISKSTRING 매개변수의 경로 이름을 추가합니다. ASM_DISKSTRING 경로는 ASM DISKSTRING=/dev/rdsk/*이어야 하며, 여기서 * 는 ASM 디스크 이름을 나타냅니다.
+
+를 누릅니다
+
+|===
+
+
+http://www.oracle.com/technetwork/indexes/documentation/index.html["Oracle 설명서: www.oracle.com/technetwork/indexes/documentation/index.html"]

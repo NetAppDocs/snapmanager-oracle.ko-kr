@@ -1,0 +1,109 @@
+---
+permalink: unix-administration/reference_the_smosmsapbackup_mount_command.html 
+sidebar: sidebar 
+keywords: run, backup, mount, command, perform, recover, operation, external, tool, smo 
+summary: 백업 마운트 명령을 실행하여 백업을 마운트하면 외부 툴을 사용하여 복구 작업을 수행할 수 있습니다. 
+---
+= SMO 백업 마운트 명령
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+백업 마운트 명령을 실행하여 백업을 마운트하면 외부 툴을 사용하여 복구 작업을 수행할 수 있습니다.
+
+
+
+== 구문
+
+[listing]
+----
+
+        smo backup mount
+-profile profile_name
+[-label label \[-data \| -archivelogs\] \| \[-id id\]
+[-host  host]
+\[-from-secondary \{-copy-id id\}\]
+\[-dump\]
+[-quiet | -verbose]
+----
+
+
+== 매개 변수
+
+* * - profile profile_name *
++
+마운트할 백업과 관련된 프로파일을 지정합니다. 프로파일에는 데이터베이스의 식별자와 기타 데이터베이스 정보가 들어 있습니다.
+
+* * -id GUID *
++
+지정된 GUID로 백업을 마운트합니다. GUID는 백업을 생성할 때 SnapManager에 의해 생성됩니다. SMO 백업 목록 명령을 사용하여 각 백업의 GUID를 표시할 수 있습니다.
+
+* * - 라벨 라벨 *
++
+지정된 레이블을 사용하여 백업을 마운트합니다.
+
+* * -데이터 *
++
+데이터 파일을 지정합니다.
+
+* * -archivelogs *
++
+아카이브 로그 파일을 지정합니다.
+
+* * -from-secondary-copy-id *
++
+보조 스토리지에서 백업을 마운트합니다. 이 옵션을 지정하지 않으면 SnapManager가 운영 스토리지에서 백업을 마운트합니다. 백업이 확보되면 이 옵션을 사용할 수 있습니다.
+
++
+2차 옵션에서 지정할 때마다 -copy -id 옵션을 지정해야 합니다. 보조 스토리지 시스템에 둘 이상의 백업이 있는 경우 -copy -id 옵션을 사용하여 백업을 마운트하는 데 사용할 보조 스토리지의 백업 복제본을 지정합니다.
+
++
+
+NOTE: 7-Mode에서 작동하는 Data ONTAP를 사용하는 경우 -copy -id 옵션에 유효한 값을 지정해야 합니다. 하지만 clustered Data ONTAP을 사용하는 경우에는 -copy -id 옵션이 필요하지 않습니다.
+
+* * -호스트 호스트 *
++
+백업을 마운트할 호스트를 지정합니다.
+
+* * -덤프 *
++
+마운트 작업이 성공하거나 실패한 후 덤프 파일을 수집합니다.
+
+* * -저소음 *
++
+콘솔에 오류 메시지만 표시합니다. 기본 설정은 오류 및 경고 메시지를 표시하는 것입니다.
+
+* * - 자세한 정보 표시 *
++
+콘솔에 오류, 경고 및 정보 메시지를 표시합니다.
+
+
+
+
+NOTE: Oracle RMAN(Recovery Manager)과 같은 외부 툴을 사용하는 경우에만 이 명령을 사용해야 합니다. SnapManager는 SMO 백업 복원 명령을 사용하여 백업을 복원하는 경우 자동으로 백업 장착을 처리합니다. 이 명령은 스냅샷 복사본이 마운트된 경로를 보여 주는 목록을 표시합니다. 이 목록은 -verbose 옵션을 지정한 경우에만 표시됩니다.
+
+
+
+== 예
+
+다음 예에서는 백업을 마운트합니다.
+
+[listing]
+----
+smo backup mount -profile SALES1 -label full_backup_sales_May -verbose
+SMO-13046 [INFO ]: Operation GUID 8abc013111b9088e0111b908a7560001 starting on Profile SALES1
+SMO-08052 [INFO ]: Beginning to connect mount(s) [/mnt/ssys1/logs, /mnt/ssys1/data] from logical snapshot SMO_SALES1_hsdb1_F_C_1_8abc013111a450480111a45066210001.
+SMO-08025 [INFO ]: Beginning to connect mount /mnt/ssys1/logs from snapshot SMO_SALES1_hsdb1_F_C_1_8abc013111a450480111a45066210001_0 of volume hs_logs.
+SMO-08027 [INFO ]: Finished connecting mount /mnt/ssys1/logs from snapshot SMO_SALES1_hsdb1_F_C_1_8abc013111a450480111a45066210001_0 of volume hs_logs.
+SMO-08025 [INFO ]: Beginning to connect mount /mnt/ssys1/data from snapshot SMO_SALES1_hsdb1_F_C_1_8abc013111a450480111a45066210001_0 of volume hs_data.
+SMO-08027 [INFO ]: Finished connecting mount /mnt/ssys1/data from snapshot SMO_SALES1_hsdb1_F_C_1_8abc013111a450480111a45066210001_0 of volume hs_data.
+SMO-08053 [INFO ]: Finished connecting mount(s) [/mnt/ssys1/logs, /mnt/ssys1/data] from logical snapshot SMO_SALES1_hsdb1_F_C_1_8abc013111a450480111a45066210001.
+SMO-13037 [INFO ]: Successfully completed operation: Backup Mount
+SMO-13048 [INFO ]: Operation Status: SUCCESS
+SMO-13049 [INFO ]: Elapsed Time: 0:01:00.981
+Operation Id [8abc013111b9088e0111b908a7560001] succeeded.
+----
+* 관련 정보 *
+
+xref:task_mounting_backups.adoc[백업을 마운트하는 중입니다]

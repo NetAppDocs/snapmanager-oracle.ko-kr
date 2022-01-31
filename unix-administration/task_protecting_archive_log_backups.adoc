@@ -1,0 +1,32 @@
+---
+permalink: unix-administration/task_protecting_archive_log_backups.html 
+sidebar: sidebar 
+keywords: creating, profile, enable, protection, archive, log, backup, base, policy 
+summary: 프로파일을 생성하는 동안 아카이브 로그 보호 정책을 기반으로 아카이브 로그 백업에 대한 보호를 설정할 수 있습니다. 
+---
+= 아카이브 로그 백업 보호
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+프로파일을 생성하는 동안 아카이브 로그 보호 정책을 기반으로 아카이브 로그 백업에 대한 보호를 설정할 수 있습니다.
+
+. 다음 명령을 입력합니다. smo profile create -profileprofile [-profile-passwordprofile_password] -repository -dbnamerepo_dbname -hostrepo_host -portrepo_port -login -usernamenti_username -database] dbnamedb_dbname -hostdb_host[-siderb_username] durnportunworldnportname [login]{usernemotherman_recentname]{recall -recentname]{recall -recentname]{usernemotyptnportname]{recentname]{recentname]{recentname]{recentlist -recentlist -recentary_recentname]{recentname]{recentname]{recentlist -recentname]{recall -recall -recentlist -recentlist -recentlist -recentlist -recentname]{recentary_recentname]{recentary_recentary_recall -recentary_recall -recall -durename]{recall -recall
++
+|===
+| 만약... | 그러면... 
+
+
+ a| 
+* 아카이브 로그 백업을 별도로 백업하고 아카이브 로그 파일을 보호하려고 합니다 *
+ a| 
+다음 옵션을 지정합니다.
+
+** 개별 아카이브 - 백업을 사용하면 아카이브 로그 파일을 데이터 파일에서 분리할 수 있습니다.
+** -Protect는 아카이브 로그 아카이브 로그 백업에 대해 별도의 보호 정책을 할당합니다.
+** -protection-policy 아카이브 로그 백업에 대한 보호 정책을 할당합니다.
+
+
+|===
+

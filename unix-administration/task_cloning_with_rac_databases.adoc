@@ -1,0 +1,19 @@
+---
+permalink: unix-administration/task_cloning_with_rac_databases.html 
+sidebar: sidebar 
+keywords: clone, rac, database, non-rac, srvctl 
+summary: RAC 데이터베이스를 비 RAC 데이터베이스에 복제하거나 비 RAC 데이터베이스에 클론한 다음 RAC 데이터베이스로 변경할 수 있습니다. 
+---
+= RAC 데이터베이스를 사용한 복제
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+RAC 데이터베이스를 비 RAC 데이터베이스에 복제하거나 비 RAC 데이터베이스에 클론한 다음 RAC 데이터베이스로 변경할 수 있습니다.
+
+. RAC 데이터베이스를 복제하려면 SMO clone create -backup-label backup_label -profile profile profile_name -newsid new_sid -clonespec full_path_to_clonespec_file -verbose 명령을 입력합니다
+. 클론이 생성된 비 RAC 데이터베이스를 RAC 데이터베이스로 변경하려면 파일 이름을 initclone_SID.ora에서 initclone_local_instance_SID.ora로 변경합니다.
+. 이름이 바뀐 파일을 편집하여 parameter cluster.database를 true로 설정합니다. RAC 데이터베이스 정보
+. 클론 생성된 RAC 데이터베이스를 srvctl에 등록합니다.
+

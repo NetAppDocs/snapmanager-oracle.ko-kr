@@ -1,0 +1,27 @@
+---
+permalink: unix-administration/task_configuring_snapmanager_for_oracle_with_veritas_file_system.html 
+sidebar: sidebar 
+keywords: snapmanager, install, solaris, configure, veritas, storage, foundation, oracle, rac, sfrac, environment 
+summary: 'SnapManager가 Solaris에 설치된 경우 SnapManager를 구성하여 Oracle RAC\(SFRAC\)용 VERITAS Storage Foundation 환경을 지원할 수 있습니다.' 
+---
+= Veritas SFRAC 환경을 지원하도록 SnapManager 구성
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapManager가 Solaris에 설치된 경우 SnapManager를 구성하여 SFRAC(Veritas Storage Foundation for Oracle RAC) 환경을 지원할 수 있습니다.
+
+* 호스트에는 Solaris, 호스트 유틸리티 및 Veritas가 설치되어 있어야 합니다.
++
+.. SnapDrive for UNIX를 사용하여 SnapManager용 공유 디스크 그룹 및 파일 시스템을 생성하여 파일 시스템이 RAC(Real Application Clusters)의 두 노드에 동시에 마운트되도록 합니다.
++
+공유 디스크 그룹 및 파일 시스템을 생성하는 방법에 대한 자세한 내용은 SnapDrive 설명서를 참조하십시오.
+
+.. 공유 파일 시스템에 마운트할 Oracle 데이터베이스를 설치하고 구성합니다.
+.. RAC의 한 노드에서 데이터베이스 인스턴스를 시작합니다.
+
+
+
+
+http://mysupport.netapp.com/["NetApp Support 사이트 관련 문서: mysupport.netapp.com"]

@@ -1,0 +1,48 @@
+---
+permalink: windows/reference_the_smosmsap_server_restart_command.html 
+sidebar: sidebar 
+keywords: command, restart, host, server, enter, root, smo 
+summary: 이 명령은 SnapManager 호스트 서버를 다시 시작하고 루트로 입력합니다. 
+---
+= smo_server restart 명령
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 명령은 SnapManager 호스트 서버를 다시 시작하고 루트로 입력합니다.
+
+
+
+== 구문
+
+[listing]
+----
+
+        smo_server restart
+[-quiet | -verbose]
+----
+
+
+== 매개 변수
+
+* * -저소음 *
++
+오류 메시지만 콘솔에 표시되도록 지정합니다. 기본값은 오류 및 경고 메시지를 표시하는 것입니다.
+
+* * - 자세한 정보 표시 *
++
+오류, 경고 및 정보 메시지가 콘솔에 표시되도록 지정합니다.
+
+
+
+
+
+== 명령 예
+
+다음 예에서는 호스트 서버를 다시 시작합니다.
+
+[listing]
+----
+smo_server restart
+----

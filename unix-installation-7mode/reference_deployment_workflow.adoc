@@ -1,0 +1,15 @@
+---
+permalink: unix-installation-7mode/reference_deployment_workflow.html 
+sidebar: sidebar 
+keywords: create, backup, snapmanager, install, snapdrive, unix, oracle, deployment, workflow 
+summary: SnapManager를 사용하여 백업을 생성하려면 먼저 UNIX용 SnapDrive를 설치한 다음 SnapManager for Oracle을 설치해야 합니다. 
+---
+= 구축 워크플로우
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapManager를 사용하여 백업을 생성하려면 먼저 UNIX용 SnapDrive를 설치한 다음 SnapManager for Oracle을 설치해야 합니다.
+
+image::../media/deployment_workflow_smo_7mode_c1.gif[이 다이어그램은 7-Mode 환경에서 Oracle용 SnapManager의 구축 워크플로우를 보여 줍니다.]

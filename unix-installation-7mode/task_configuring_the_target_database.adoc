@@ -1,0 +1,20 @@
+---
+permalink: unix-installation-7mode/task_configuring_the_target_database.html 
+sidebar: sidebar 
+keywords: target, database, oracle, configure, standalone, real, application, cluster, rac, automatic, storage 
+summary: '타겟 데이터베이스는 독립 실행형, RAC(Real Application Clusters), ASM(Automatic Storage Management) 또는 기타 지원되는 조합으로 구성할 수 있는 Oracle 데이터베이스입니다.' 
+---
+= 대상 데이터베이스 구성
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+타겟 데이터베이스는 독립 실행형, RAC(Real Application Clusters), ASM(Automatic Storage Management) 또는 기타 지원되는 조합으로 구성할 수 있는 Oracle 데이터베이스입니다.
+
+. referring_TR-3633_을 참조하여 타겟 데이터베이스를 구성합니다.
+
+
+* 관련 정보 *
+
+http://www.netapp.com/us/media/tr-3633.pdf["NetApp 기술 보고서 3633: NetApp 스토리지의 Oracle 데이터베이스 모범 사례"]

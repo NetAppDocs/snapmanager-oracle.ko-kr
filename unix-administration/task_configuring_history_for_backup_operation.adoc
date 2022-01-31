@@ -1,0 +1,29 @@
+---
+permalink: unix-administration/task_configuring_history_for_backup_operation.html 
+sidebar: sidebar 
+keywords: snapmanager, oracle, enable, maintain, history, snapmanager, operation, cli, gui, view, history, smo, set 
+summary: SnapManager for Oracle을 사용하면 SnapManager CLI 또는 GUI에서 SnapManager 작업 기록을 유지할 수 있습니다. SnapManager 작업의 기록을 보고서로 볼 수 있습니다. 
+---
+= SnapManager 작업에 대한 기록을 구성하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapManager for Oracle을 사용하면 SnapManager CLI 또는 GUI에서 SnapManager 작업 기록을 유지할 수 있습니다. SnapManager 작업의 기록을 보고서로 볼 수 있습니다.
+
+. SnapManager 작업 기록을 구성하려면 다음 명령을 입력합니다. smo history set -profile {-name,profile_name [profile_name1,profile_name2] | -all-repository-login[-passwedpo_password] -usernamerepo_username -dbnamerepo_dbname -hstrepo_host -portreportalport} operation -monycountain_operation
+
+
+[listing]
+----
+
+        smo
+history set -profile -name PROFILE1 -operation -operations backup -retain -daily 6 -verbose
+----
+[listing]
+----
+
+        smo
+history set -profile -name PROFILE1 -operation -all -retain -weekly 3 -verbose
+----

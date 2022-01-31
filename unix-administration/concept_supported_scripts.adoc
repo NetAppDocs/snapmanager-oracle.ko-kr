@@ -1,0 +1,19 @@
+---
+permalink: unix-administration/concept_supported_scripts.html 
+sidebar: sidebar 
+keywords: asmmain.sh, asmquerydisk.sh, script, grid, group, user 
+summary: asmmain.sh 및 asmquerydisk.sh 스크립트를 사용하여 GRID 사용자, 그룹 및 사용자를 변경할 수 있으며, 이 모든 것은 ASM 디스크를 쿼리하는 데 사용됩니다. 스크립트는 항상 루트에서 실행해야 합니다. 
+---
+= 지원되는 스크립트
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+asmmain.sh 및 asmquerydisk.sh 스크립트를 사용하여 GRID 사용자, 그룹 및 사용자를 변경할 수 있으며, 이 모든 것은 ASM 디스크를 쿼리하는 데 사용됩니다. 스크립트는 항상 루트에서 실행해야 합니다.
+
+asmmain.sh 은 디바이스를 추가하거나 삭제하는 작업에서 호출되는 기본 스크립트 파일입니다. asmmain.sh 스크립트는 다른 스크립트를 내부적으로 호출하며, 이 스크립트는 Oracle 그리드 자격 증명이 있는 루트에서 실행해야 합니다. 이 스크립트는 ASM 디스크 그룹의 장치를 쿼리한 다음 initasmdisk 파일에 이러한 항목을 장치의 권한 및 소유권과 함께 추가합니다. 사용자 환경과 /dev/mapper/ * P1만 일치시키는 데 사용되는 regex 패턴을 기반으로 이 파일의 권한과 소유권을 변경할 수 있습니다.
+
+asmquerydisk.sh 스크립트는 ASM 디스크 그룹을 생성하는 데 사용되는 디스크 목록을 쿼리하는 데 사용됩니다. 구성에 따라 값을 ORACLE_BASE, ORACLE_HOME 및 ORACLE_SID에 할당해야 합니다.
+
+스크립트는 /opt/netapp/smo/plugins/examples/noasmlib에 있습니다. 그러나 호스트에서 Oracle 서버용 SnapManager를 시작하기 전에 이러한 스크립트를 /opt/netapp/smo/plugins/nasmlib로 이동해야 합니다.

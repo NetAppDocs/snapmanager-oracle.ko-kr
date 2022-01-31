@@ -1,0 +1,39 @@
+---
+permalink: unix-administration/concept_general_layout_and_configuration.html 
+sidebar: sidebar 
+keywords: recommend, general, database, layout, storage, configuration, avoid, issue, disk, group, file, lun 
+summary: 권장되는 일반 데이터베이스 레이아웃 및 스토리지 구성을 파악하면 디스크 그룹, 파일 유형 및 테이블스페이스와 관련된 문제를 방지할 수 있습니다. 
+---
+= 권장되는 일반 데이터베이스 레이아웃 및 스토리지 구성
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+권장되는 일반 데이터베이스 레이아웃 및 스토리지 구성을 파악하면 디스크 그룹, 파일 유형 및 테이블스페이스와 관련된 문제를 방지할 수 있습니다.
+
+* 데이터베이스에 둘 이상의 SAN 파일 시스템 또는 볼륨 관리자 유형의 파일을 포함하지 마십시오.
++
+데이터베이스를 구성하는 모든 파일은 동일한 유형의 파일 시스템에 있어야 합니다.
+
+* SnapManager에는 4K 블록 크기의 배수도 필요합니다.
+* oratab 파일에 데이터베이스 시스템 식별자를 포함합니다.
++
+관리할 각 데이터베이스의 oratab 파일에 항목을 포함합니다. SnapManager는 oratab 파일을 사용하여 어떤 Oracle 홈을 사용할 것인지 결정합니다.
+
+* SnapManager 백업을 Oracle RMAN(Recovery Manager)에 등록하려면 RMAN 사용 프로필을 생성해야 합니다.
+
+
+새 볼륨 기반 복원 또는 전체 디스크 그룹 복원을 활용하려면 파일 시스템 및 디스크 그룹과 관련된 다음 지침을 고려하십시오.
+
+* 여러 데이터베이스가 동일한 ASM(Automatic Storage Management) 디스크 그룹을 공유할 수 없습니다.
+* 데이터 파일이 포함된 디스크 그룹은 다른 유형의 파일을 포함할 수 없습니다.
+* 데이터 파일 디스크 그룹의 LUN(Logical Unit Number)은 스토리지 볼륨의 유일한 객체여야 합니다.
+
+
+다음은 볼륨 분리를 위한 몇 가지 지침입니다.
+
+* 한 데이터베이스의 데이터 파일만 볼륨에 있어야 합니다.
+* 데이터베이스 바이너리, 데이터 파일, 온라인 redo 로그 파일, 아카이빙된 redo 로그 파일, 제어 파일 등 각 파일 분류에 대해 별도의 볼륨을 사용해야 합니다.
+* SnapManager는 임시 데이터베이스 파일을 백업하지 않으므로 임시 데이터베이스 파일을 위한 별도의 볼륨을 생성할 필요가 없습니다.
+

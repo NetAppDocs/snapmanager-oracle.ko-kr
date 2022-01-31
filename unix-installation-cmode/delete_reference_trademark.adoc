@@ -1,0 +1,12 @@
+---
+permalink: unix-installation-cmode/delete_reference_trademark.html 
+sidebar: sidebar 
+keywords: trademark, information 
+summary: 상표, 정보 
+---
+= 상표 정보
+:icons: font
+:imagesdir: ../media/
+
+
+NetApp, NetApp 로고, Go further, faster, AltaVault, ASUP, AutoSupport, Campaign Express, Cloud ONTAP, clustered Data ONTAP, Customer Fitness, Data ONTAP, DataMotion, Fitness, Flash Accel, Flash Cache, Flash Pool, FlashRay, FlexArray, FlexCache, FlexClone, FlexPod, FlexScale, FlexShare, FlexVol, FPolicy, GetSuccessful, LockVault, ONTAP 관리, Mars, MetroCluster, MultiStore, NetApp Insight, OnCommand, ONTAP, ONTAPI, RAID DP, RAID-TEC, SANtricity, SecureShare, 단순성, ONTAP 시뮬레이션, Snap Creator, SnapCenter, SnapCopy, SnapDrive, SnapIntegrator, SnapLock, SnapManager, SnapMirror, SnapMover, SnapProtect, SnapRestore, Snapshot, SnapValidator, SnapVault, StorageGRID, Tech OnTap, Unbound Cloud 및 WAFL와 기타 이름은 미국, 대한민국 및/또는 기타 국가에서 사용되는 NetApp, Inc.의 상표 또는 등록 상표입니다. 다른 모든 브랜드 또는 제품은 해당 소유자의 상표 또는 등록 상표이며 이와 동등하게 취급되어야 합니다. NetApp 상표의 최신 목록은 다음 웹 사이트에서 확인할 수 있습니다 http://www.netapp.com/us/legal/netapptmlist.aspx[].

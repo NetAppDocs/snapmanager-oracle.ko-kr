@@ -1,0 +1,31 @@
+---
+permalink: unix-administration/concept_support_for_asm_databases_without_asmlib.html 
+sidebar: sidebar 
+keywords: snapmanager, asm, asmlib, requirement, asm, disk, group, primary, storage, vbsr, secondary 
+summary: SnapManager는 기본적으로 ASMLib 없이 ASM을 지원합니다. 기본적인 요구 사항은 ASM 디스크 그룹에 사용되는 디바이스를 파티셔닝해야 한다는 것입니다. 
+---
+= ASMLib 없이 ASM 데이터베이스를 지원합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapManager는 기본적으로 ASMLib 없이 ASM을 지원합니다. 기본적인 요구 사항은 ASM 디스크 그룹에 사용되는 디바이스를 파티셔닝해야 한다는 것입니다.
+
+ASMLib가 설치되지 않은 경우 다음 작업을 수행할 때 ASM 디스크 그룹과 관련된 장치 권한이 root:disk로 변경됩니다.
+
+* 호스트를 다시 시작합니다
+* VBSR(볼륨 기반 SnapRestore)을 사용하여 운영 스토리지에서 데이터베이스 복원
+* 보조 스토리지에서 데이터베이스를 복원합니다
+
+
+SMO.conf에서 .aslib 구성 변수를 사용하지 않고 oracleasm.support에 true를 할당하여 적절한 장치 권한을 설정할 수 있습니다. 새 디바이스가 호스트에서 추가되거나 제거될 때마다 ASM 디스크 그룹과 관련된 디바이스가 initasmdisks 파일에서 추가 또는 제거됩니다. initasmdisks 파일이 /etc/initasmdisks에 있습니다.
+
+예를 들어, oracleasm.support.without.ASMlib=true를 설정하고 백업 마운트를 수행하는 경우 새 디바이스가 initasmdisks에 추가됩니다. 호스트를 다시 시작하면 시작 스크립트에서 디바이스 권한 및 소유권을 유지합니다.
+
+
+NOTE: oracleasm.support의 기본값입니다. without.ASMlib는 false 입니다.
+
+* 관련 정보 *
+
+xref:reference_supported_partition_devices.adoc[지원되는 파티션 장치]

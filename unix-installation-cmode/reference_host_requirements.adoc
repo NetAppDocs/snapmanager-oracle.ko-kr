@@ -1,0 +1,22 @@
+---
+permalink: unix-installation-cmode/reference_host_requirements.html 
+sidebar: sidebar 
+keywords: install, snapmanager, oracle, host, minimum, requirement, configuration 
+summary: 백업할 Oracle 데이터베이스가 호스팅되는 모든 호스트에 SnapManager for Oracle을 설치해야 합니다. 호스트가 SnapManager 구성에 대한 최소 요구 사항을 충족하는지 확인해야 합니다. 
+---
+= UNIX 호스트 요구 사항
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+백업할 Oracle 데이터베이스가 호스팅되는 모든 호스트에 SnapManager for Oracle을 설치해야 합니다. 호스트가 SnapManager 구성에 대한 최소 요구 사항을 충족하는지 확인해야 합니다.
+
+* SnapManager를 설치하기 전에 데이터베이스 호스트에 SnapDrive를 설치해야 합니다.
+* SnapManager는 물리적 또는 가상 머신에 설치할 수 있습니다.
+* 동일한 리포지토리를 공유하는 모든 호스트에 동일한 버전의 SnapManager를 설치해야 합니다.
+* Oracle 데이터베이스 11.2.0.2 또는 11.2.0.3을 사용하는 경우 Oracle 패치 13366202를 설치해야 합니다.
++
+DNFS를 사용하는 경우 최고의 성능과 안정성을 위해 MOS(My Oracle Support) 보고서 1495104.1에 나와 있는 패치도 설치해야 합니다.
+
+

@@ -1,0 +1,16 @@
+---
+permalink: windows/concept_post_upgrade_tasks.html 
+sidebar: sidebar 
+keywords: upgrade, upgrading, version, repository, backup, post-upgrade, task 
+summary: 최신 버전의 SnapManager로 업그레이드한 후 기존 리포지토리를 업데이트해야 합니다. 기존 백업에 할당된 백업 보존 클래스를 수정할 수도 있습니다. 
+---
+= 업그레이드 후 작업
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+최신 버전의 SnapManager로 업그레이드한 후 기존 리포지토리를 업데이트해야 합니다. 기존 백업에 할당된 백업 보존 클래스를 수정할 수도 있습니다.
+
+
+NOTE: SnapManager 3.3 이상으로 업그레이드한 후 데이터베이스(DB) 인증을 유일한 인증 방법으로 사용하려면 sqlnet.authentication_services 를 없음으로 설정해야 합니다. 이 기능은 RAC 데이터베이스에 대해 지원되지 않습니다.

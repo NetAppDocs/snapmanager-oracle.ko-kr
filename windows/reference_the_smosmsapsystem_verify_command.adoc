@@ -1,0 +1,52 @@
+---
+permalink: windows/reference_the_smosmsapsystem_verify_command.html 
+sidebar: sidebar 
+keywords: command, confirm, component, environment, run, snapmanager, smo 
+summary: 이 명령은 SnapManager를 실행하는 데 필요한 환경의 모든 구성 요소가 올바르게 설정되었는지 확인합니다. 
+---
+= SMO 시스템 verify 명령
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 명령은 SnapManager를 실행하는 데 필요한 환경의 모든 구성 요소가 올바르게 설정되었는지 확인합니다.
+
+
+
+== 구문
+
+[listing]
+----
+
+        smo system verify
+\[-quiet \| -verbose\]
+----
+
+
+== 매개 변수
+
+* * -저소음 *
++
+콘솔에 오류 메시지만 표시합니다. 기본값은 오류 및 경고 메시지를 표시하는 것입니다.
+
+* * - 자세한 정보 표시 *
++
+콘솔에 오류, 경고 및 정보 메시지를 표시합니다.
+
+
+
+
+
+== system verify 명령의 예
+
+다음 예에서는 SMO system verify 명령을 사용합니다.
+
+[listing]
+----
+smo system verify
+SMO-13505 [INFO ]: Snapdrive verify passed.
+SMO-13037 [INFO ]: Successfully completed operation: System Verify
+SMO-13049 [INFO ]: Elapsed Time: 0:00:00.559
+Operation Id [N4f4e910004b36cfecee74c710de02e44] succeeded.
+----

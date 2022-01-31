@@ -1,0 +1,27 @@
+---
+permalink: unix-installation-cmode/task_starting_the_snapmanager_server.html 
+sidebar: sidebar 
+keywords: start, snapmanager, server, target, database, host, smo 
+summary: 대상 데이터베이스 호스트에서 SnapManager 서버를 시작해야 합니다. 
+---
+= SnapManager 서버를 시작하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+대상 데이터베이스 호스트에서 SnapManager 서버를 시작해야 합니다.
+
+. 대상 데이터베이스 호스트에 로그인하고 SnapManager 서버 'smo_server start'를 시작합니다
++
+SnapManager 서버가 PID PID PID_NUMBER를 사용하여 보안 포트 포트 포트_번호에서 시작되었습니다.
+
++
+
+NOTE: 기본 포트는 27214입니다.
+
+
+
+SnapManager이 올바르게 실행 중인지 확인할 수 있습니다. SMO 시스템 확인
+
+Operation ID operation_ID_number succeeded 메시지가 표시됩니다.

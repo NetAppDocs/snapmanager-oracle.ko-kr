@@ -1,0 +1,21 @@
+---
+permalink: unix-administration/task_viewing_status_of_clone_split_process.html 
+sidebar: sidebar 
+keywords: view, progress, split, process, start, smo 
+summary: 시작한 분할 프로세스의 진행 상황을 볼 수 있습니다. 
+---
+= 클론 분할 프로세스의 상태 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시작한 분할 프로세스의 진행 상황을 볼 수 있습니다.
+
+. 클론 분할 프로세스의 진행률을 보려면 'smo clone split-status-profileprofile[-hostname][-labelsplit-label|-idsplit-id][-quiet|-verbose]' 명령을 입력합니다
+
+
+[listing]
+----
+smo clone split-status -profile p1 -id 8abc01ec0e78f3e2010e78f3fdd00001
+----

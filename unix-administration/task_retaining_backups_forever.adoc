@@ -1,0 +1,20 @@
+---
+permalink: unix-administration/task_retaining_backups_forever.html 
+sidebar: sidebar 
+keywords: specify, backup, ineligible, deletion, retention, policy, indefinite, unlimited, basis, smo 
+summary: 백업을 무기한 유지하기 위해 보존 정책에 따라 백업을 삭제할 수 없게 지정할 수 있습니다. 
+---
+= 백업을 영구적으로 유지합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+백업을 무기한 유지하기 위해 보존 정책에 따라 백업을 삭제할 수 없게 지정할 수 있습니다.
+
+. 백업을 무제한 보존하도록 지정하려면 'smo backup update-profileprofile_name{-labellabel [data|-archivelogs]|-iDID}-retain-unlimited' 명령을 입력합니다
+
+
+* 관련 정보 *
+
+xref:reference_the_smosmsapbackup_update_command.adoc[SMO 백업 업데이트 명령]
