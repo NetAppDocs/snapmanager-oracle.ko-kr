@@ -5,6 +5,7 @@ keywords: run, clone, show, command, display, information, database, clone, spec
 summary: clone show 명령을 실행하여 지정된 프로파일의 데이터베이스 클론에 대한 정보를 표시할 수 있습니다. 
 ---
 = SMO clone show 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

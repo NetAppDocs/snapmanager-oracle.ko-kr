@@ -5,6 +5,7 @@ keywords: command, suspend, backup, schedule, smo
 summary: 이 명령은 백업 스케줄이 재개될 때까지 백업 스케줄을 일시 중단합니다. 
 ---
 = SMO schedule suspend 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

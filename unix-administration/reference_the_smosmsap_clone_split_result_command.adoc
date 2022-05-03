@@ -5,6 +5,7 @@ keywords: smo, clone, split-result, command
 summary: SMO clone split-result 명령 
 ---
 = SMO clone split-result 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

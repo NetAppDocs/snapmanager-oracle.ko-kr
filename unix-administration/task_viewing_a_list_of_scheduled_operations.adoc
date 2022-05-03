@@ -5,6 +5,7 @@ keywords: view, list, schedule, operation, profile, smo
 summary: 프로필에 대해 예약된 작업 목록을 볼 수 있습니다. 
 ---
 = 예약된 작업 목록 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

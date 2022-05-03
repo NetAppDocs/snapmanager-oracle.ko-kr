@@ -5,6 +5,7 @@ keywords: client, graphical, user, interface, gui, command-line, interface, cli
 summary: 'SnapManager 클라이언트에는 그래픽 사용자 인터페이스(GUI)와 명령줄 인터페이스(CLI)가 모두 포함되어 있습니다.' 
 ---
 = SnapManager 그래픽 사용자 및 명령줄 인터페이스
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

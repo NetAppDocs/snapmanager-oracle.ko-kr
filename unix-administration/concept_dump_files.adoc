@@ -5,6 +5,7 @@ keywords: dump, file, log, snapmanager, environment
 summary: 덤프 파일은 SnapManager 및 해당 환경에 대한 정보가 포함된 압축된 로그 파일입니다. 생성된 로그 파일의 유형은 작업, 프로필 및 시스템 덤프 파일입니다. 
 ---
 = 파일을 덤프합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

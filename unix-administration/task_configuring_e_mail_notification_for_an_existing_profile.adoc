@@ -5,6 +5,7 @@ keywords: updating, profile, configure, receive, email, notification, completion
 summary: 프로필을 업데이트할 때 데이터베이스 작업이 완료되면 이메일 알림을 받도록 을 구성할 수 있습니다. 
 ---
 = 기존 프로파일에 대한 이메일 알림을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

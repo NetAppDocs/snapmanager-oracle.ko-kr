@@ -5,6 +5,7 @@ keywords: delete, clone, snapshot, copy, backup, guarantee, current, data, delet
 summary: '스냅샷 복사본의 크기가 백업의 10%~20%에 도달하면 클론을 삭제할 수 있습니다. 이렇게 하면 클론에 최신 데이터가 있다는 것도 보장됩니다.' 
 ---
 = 클론 삭제
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

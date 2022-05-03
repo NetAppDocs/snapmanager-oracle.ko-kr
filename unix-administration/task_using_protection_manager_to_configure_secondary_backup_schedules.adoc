@@ -5,6 +5,7 @@ keywords: support, backup, database, secondary, storage, administrator, protecti
 summary: 보조 스토리지에 데이터베이스 백업을 지원하기 위해 스토리지 관리자는 Protection Manager를 사용하여 백업 스케줄을 구성합니다. 
 ---
 = Protection Manager를 사용하여 보조 백업 스케줄 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

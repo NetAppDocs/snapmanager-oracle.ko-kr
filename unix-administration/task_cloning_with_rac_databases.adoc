@@ -5,6 +5,7 @@ keywords: clone, rac, database, non-rac, srvctl
 summary: RAC 데이터베이스를 비 RAC 데이터베이스에 복제하거나 비 RAC 데이터베이스에 클론한 다음 RAC 데이터베이스로 변경할 수 있습니다. 
 ---
 = RAC 데이터베이스를 사용한 복제
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: cluster, configuration
 summary: SnapManager는 클러스터 구성에서 작동합니다. 
 ---
 = 클러스터링된 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: snapmanager, enable, perform, volume-based, file-based, restore, opert
 summary: SnapManager를 사용하면 볼륨 기반 또는 파일 기반 백업 및 복원 작업을 수행할 수 있습니다. 
 ---
 = 데이터베이스 복원이란 무엇입니까
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

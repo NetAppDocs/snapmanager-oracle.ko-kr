@@ -5,6 +5,7 @@ keywords: view, history, settings, single, profile, smo
 summary: 단일 프로파일의 기록 설정을 볼 수 있습니다. 
 ---
 = SnapManager 기록 구성 세부 정보 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: oracle, automate, database, recovery, cloning, clone, snapshot, snapre
 summary: Oracle용 SnapManager는 스냅샷 복사본, SnapRestore 및 FlexClone 기술을 활용하여 데이터베이스 백업, 복구 및 복제를 단순화하고 자동화합니다. 
 ---
 = SnapManager for Oracle의 기능
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

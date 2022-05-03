@@ -5,6 +5,7 @@ keywords: organize, repository, repositories
 summary: SnapManager 리포지토리를 비즈니스 요구에 맞게 구성할 수 있습니다. 응용 프로그램 유형 및 사용을 비롯한 여러 가지 방법으로 구성할 수 있습니다. 
 ---
 = 리포지토리 구성 방법
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

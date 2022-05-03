@@ -5,6 +5,7 @@ keywords: command, display, information, repository, smo
 summary: 이 명령은 리포지토리에 대한 정보를 표시합니다. 
 ---
 = SMO repository show 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

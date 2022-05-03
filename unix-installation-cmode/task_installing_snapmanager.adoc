@@ -5,6 +5,7 @@ keywords: install, snapmanager, host, database, backup, running
 summary: 백업할 데이터베이스가 실행 중인 각 호스트에 SnapManager를 설치해야 합니다. 
 ---
 = SnapManager를 설치하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

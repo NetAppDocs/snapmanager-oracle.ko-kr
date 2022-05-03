@@ -5,6 +5,7 @@ keywords: delete, profile, contain, succesful, backup, operation, deleting, smo
 summary: 현재 다른 작업에 사용된 성공적인 백업이 포함되지 않은 경우 프로파일을 삭제할 수 있습니다. 확보되거나 삭제된 백업이 포함된 프로필을 삭제할 수 있습니다. 
 ---
 = 프로파일을 삭제하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

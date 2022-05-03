@@ -5,6 +5,7 @@ keywords: update, exist, repository, upgrading, snapmanager, updating, upgrade
 summary: SnapManager 3.3.x에서 SnapManager 3.4 이상으로 업그레이드하는 경우 기존 리포지토리를 업데이트할 필요는 없지만 다른 모든 업그레이드 경로의 경우 업그레이드 후에 액세스할 수 있도록 기존 리포지토리를 업데이트해야 합니다. 
 ---
 = 기존 리포지토리를 업데이트합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

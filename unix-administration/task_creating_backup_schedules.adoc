@@ -5,6 +5,7 @@ keywords: schedule, backup, occur, time, frequency, suit, data, environment, cre
 summary: 데이터 및 환경에 적합한 시간과 빈도로 백업을 수행하도록 예약할 수 있습니다. 
 ---
 = 백업 스케줄 생성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

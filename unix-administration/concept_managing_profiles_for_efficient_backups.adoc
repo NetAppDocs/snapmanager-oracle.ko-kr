@@ -5,6 +5,7 @@ keywords: create, profile, snapmanager, operation, efficient, backup
 summary: 작업을 수행할 데이터베이스에 대해 SnapManager에서 프로필을 만들어야 합니다. 프로파일을 선택한 다음 수행할 작업을 선택해야 합니다. 
 ---
 = 효율적인 백업을 위한 프로필 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

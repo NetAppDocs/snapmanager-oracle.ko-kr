@@ -5,6 +5,7 @@ keywords: common, issue, snapmanager, snapdrive, product, troubleshoot
 summary: SnapDrive 제품에서 SnapManager를 사용할 때 일반적으로 발생할 수 있는 몇 가지 문제가 있습니다. 
 ---
 = SnapDrive 문제 해결
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

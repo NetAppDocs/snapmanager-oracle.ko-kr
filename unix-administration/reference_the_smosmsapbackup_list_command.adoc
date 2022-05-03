@@ -5,6 +5,7 @@ keywords: run, backup, list, command, display, information, profile, including, 
 summary: 백업 목록 명령을 실행하여 보존 클래스 및 보호 상태에 대한 정보를 포함하여 프로필에 백업에 대한 정보를 표시할 수 있습니다. 
 ---
 = SMO 백업 목록 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: create, profile, database, perform, operation, contain, information
 summary: 해당 데이터베이스에서 작업을 수행하려면 데이터베이스에 대한 프로필을 만들어야 합니다. 프로파일에는 데이터베이스에 대한 정보가 들어 있으며 하나의 데이터베이스만 참조할 수 있습니다. 그러나 여러 프로파일에서 데이터베이스를 참조할 수 있습니다. 하나의 프로파일을 사용하여 생성된 백업은 두 프로파일이 동일한 데이터베이스에 연결되어 있더라도 다른 프로파일에서 액세스할 수 없습니다. 
 ---
 = 데이터베이스에 대한 프로파일을 만드는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

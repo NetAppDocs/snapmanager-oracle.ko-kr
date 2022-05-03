@@ -5,6 +5,7 @@ keywords: run, notification, update-summary-notification, command, summary, enab
 summary: notification update-summary-notification 명령을 실행하여 저장소 데이터베이스에 대한 요약 알림을 활성화할 수 있습니다. 
 ---
 = SMO notification update-summary-notification 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

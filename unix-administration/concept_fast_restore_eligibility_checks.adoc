@@ -5,6 +5,7 @@ keywords: perform, fast, restore, backup, snapmanager, elegibility, ascs, voting
 summary: 신속한 백업 복원을 수행하도록 선택하면 SnapManager에서는 먼저 자격 검사를 수행하여 빠른 복원 프로세스를 사용할 수 있는지 여부를 확인합니다. 
 ---
 = 빠른 복구 적격성 검사
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

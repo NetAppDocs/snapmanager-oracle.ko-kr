@@ -5,6 +5,7 @@ keywords: administration, guide, unix, 3.4.2
 summary: UNIX ® 용 SnapManager 3.4.2 관리 가이드 
 ---
 = UNIX ® 관리 가이드
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: identify, system, identifier, sid, snapmanager, database, creating, pr
 summary: '프로파일을 만드는 데 사용되는 SnapManager 데이터베이스의 SID(시스템 식별자)를 식별할 수 있습니다.' 
 ---
 = 백업할 기존 데이터베이스를 식별합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

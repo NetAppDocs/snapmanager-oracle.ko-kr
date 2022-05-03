@@ -5,6 +5,7 @@ keywords: force, snapmanager, oracle, volume-based, snaprestore, restore, proces
 summary: 모든 필수 빠른 복원 적격성 조건이 충족될 경우 Oracle용 SnapManager에서 다른 복원 프로세스 대신 볼륨 기반 SnapRestore 프로세스를 사용하도록 강제할 수 있습니다. 
 ---
 = 빠른 복원을 사용하여 백업을 복원합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

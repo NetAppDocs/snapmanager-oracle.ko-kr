@@ -5,6 +5,7 @@ keywords: asmmain.sh, asmquerydisk.sh, script, grid, group, user
 summary: asmmain.sh 및 asmquerydisk.sh 스크립트를 사용하여 GRID 사용자, 그룹 및 사용자를 변경할 수 있으며, 이 모든 것은 ASM 디스크를 쿼리하는 데 사용됩니다. 스크립트는 항상 루트에서 실행해야 합니다. 
 ---
 = 지원되는 스크립트
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

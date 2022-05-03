@@ -5,6 +5,7 @@ keywords: smo, operation, dump, command, name, id, fail, particular, host, envir
 summary: SMO 작업 덤프 명령을 실패한 작업의 이름 또는 ID와 함께 사용하여 특정 작업에 대한 로그 정보를 가져올 수 있습니다. 특정 작업, 프로필, 호스트 또는 환경에 대한 정보를 수집하기 위해 서로 다른 로그 수준을 지정할 수 있습니다. 
 ---
 = 작업 수준 덤프 파일을 생성하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

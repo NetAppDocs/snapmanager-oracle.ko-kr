@@ -5,6 +5,7 @@ keywords: snapmanager, asm, asmlib, requirement, asm, disk, group, primary, stor
 summary: SnapManager는 기본적으로 ASMLib 없이 ASM을 지원합니다. 기본적인 요구 사항은 ASM 디스크 그룹에 사용되는 디바이스를 파티셔닝해야 한다는 것입니다. 
 ---
 = ASMLib 없이 ASM 데이터베이스를 지원합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

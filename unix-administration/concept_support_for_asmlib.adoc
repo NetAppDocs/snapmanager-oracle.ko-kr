@@ -5,6 +5,7 @@ keywords: snapmanager, asmlib, support
 summary: SnapManager는 ASMLib의 다양한 버전을 지원합니다. 그러나 ASMLib와 함께 SnapManager를 사용할 때 고려해야 할 몇 가지 요소가 있습니다. 
 ---
 = ASMLib에 대한 지원
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

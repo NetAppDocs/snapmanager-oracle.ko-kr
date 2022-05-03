@@ -5,6 +5,7 @@ keywords: perform, operation, appropriate, credential, security, authentication
 summary: 적절한 자격 증명이 있는 경우에만 SnapManager 작업을 수행할 수 있습니다. SnapManager의 보안은 사용자 인증에 의해 관리됩니다. 
 ---
 = SnapManager의 보안 유지 방법
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

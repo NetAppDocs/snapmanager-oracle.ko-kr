@@ -5,6 +5,7 @@ keywords: update, profile, modify, password, number, backup, retain, access, dat
 summary: '프로파일을 업데이트하여 프로파일 암호, 보존할 백업 수, 데이터베이스에 대한 액세스, 데이터베이스 인증에 대한 운영 체제\(OS\) 인증 및 이에 대한 호스트 정보를 수정할 수 있습니다. Oracle 데이터베이스 암호 정보가 변경되면 프로필에서 해당 정보도 변경해야 합니다.' 
 ---
 = 프로파일을 업데이트하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

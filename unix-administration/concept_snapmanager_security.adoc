@@ -5,6 +5,7 @@ keywords: snapmanager, appropriate, credentials, security, rbac, snapdrive
 summary: '적절한 자격 증명이 있는 경우에만 SnapManager 작업을 수행할 수 있습니다. SnapManager의 보안은 사용자 인증 및 RBAC(역할 기반 액세스 제어)에 따라 관리됩니다. 데이터베이스 관리자는 RBAC를 사용하여 SnapManager가 데이터베이스의 데이터 파일을 보관하는 볼륨 및 LUN에 대해 수행할 수 있는 작업을 제한할 수 있습니다.' 
 ---
 = SnapManager의 보안 유지 방법
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

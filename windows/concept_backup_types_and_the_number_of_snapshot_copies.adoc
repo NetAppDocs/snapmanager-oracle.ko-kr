@@ -5,6 +5,7 @@ keywords: backup, type, snapshot, copies, copy
 summary: '백업 유형(전체 또는 부분)은 SnapManager에서 생성되는 스냅샷 복사본의 수에 영향을 줍니다. 전체 백업의 경우 SnapManager는 각 볼륨의 스냅샷 복사본을 생성하고 부분 백업의 경우 SnapManager는 각 테이블스페이스 파일의 스냅샷 복사본을 생성합니다.' 
 ---
 = 백업 유형 및 스냅샷 복사본 수
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

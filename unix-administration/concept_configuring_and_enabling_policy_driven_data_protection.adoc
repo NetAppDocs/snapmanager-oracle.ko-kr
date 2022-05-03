@@ -5,6 +5,7 @@ keywords: configure, snapdrive, datafabric, manager, server, profile
 summary: 보조 스토리지 시스템의 백업을 보호하기 위해 프로필에서 데이터 보호를 사용하도록 SnapDrive 및 DataFabric Manager 서버를 구성해야 합니다. Protection Manager의 콘솔에서 보호 정책을 선택하여 데이터베이스 백업 보호 방법을 지정할 수 있습니다. 
 ---
 = 정책 기반 데이터 보호 구성 및 설정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

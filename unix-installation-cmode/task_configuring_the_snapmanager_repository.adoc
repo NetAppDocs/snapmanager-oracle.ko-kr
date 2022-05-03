@@ -5,6 +5,7 @@ keywords: configure, snapmanager, repository, database, instance, store, metadat
 summary: 리포지토리 데이터베이스 인스턴스에서 SnapManager 리포지토리를 구성해야 합니다. 리포지토리 데이터베이스는 SnapManager에서 관리하는 데이터베이스에 대한 메타데이터를 저장합니다. 
 ---
 = SnapManager 리포지토리 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

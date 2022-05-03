@@ -5,6 +5,7 @@ keywords: snapmanager, perform, flexible, cloning, recover, clone, database, man
 summary: SnapManager를 사용하면 유연한 복제를 수행할 수 있으므로 resetlogs를 사용하여 데이터베이스를 열지 않고도 복제된 데이터베이스를 원하는 시점으로 수동으로 복구할 수 있습니다. 복제된 데이터베이스를 Data Guard 대기 데이터베이스로 수동으로 구성할 수도 있습니다. 
 ---
 = resetlogs 없이 데이터베이스 백업 클론 생성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: oracle, user, require, repository, database, instance, create, user, c
 summary: Oracle 사용자는 리포지터리 데이터베이스 인스턴스에 로그인하고 액세스해야 합니다. 연결 및 리소스 권한이 있는 이 사용자를 생성해야 합니다. 
 ---
 = 리포지토리 데이터베이스 인스턴스에 대한 Oracle 사용자 생성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

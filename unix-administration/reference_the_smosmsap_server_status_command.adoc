@@ -5,6 +5,7 @@ keywords: run, smo_server, status, command, view, snapmanager, host, server
 summary: SMO_SERVER 상태 명령을 실행하여 SnapManager 호스트 서버의 상태를 볼 수 있습니다. 
 ---
 = smo_server 상태 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

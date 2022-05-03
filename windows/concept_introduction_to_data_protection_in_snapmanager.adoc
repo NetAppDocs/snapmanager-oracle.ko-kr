@@ -5,6 +5,7 @@ keywords: data, protection, support, backup, secondary, tertiary, storage, syste
 summary: SnapManager는 데이터 보호를 지원하여 2차 또는 3차 스토리지 시스템의 백업을 보호합니다. 소스 볼륨과 타겟 볼륨 간의 SnapMirror 및 SnapVault 관계를 설정해야 합니다. 
 ---
 = SnapManager의 데이터 보호 소개
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: role-based, access, control, rbac, enable, configure, datafabric, mana
 summary: '역할 기반 액세스 제어\(RBAC\)가 활성화된 경우 RBAC 기능을 포함하도록 DataFabric Manager 서버를 구성해야 합니다. 또한 DataFabric Manager 서버에서 생성한 SnapDrive 사용자와 SnapDrive에서 스토리지 시스템의 루트 사용자를 등록해야 합니다.' 
 ---
 = RBAC가 활성화된 경우 DataFabric Manager 서버 및 SnapDrive 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

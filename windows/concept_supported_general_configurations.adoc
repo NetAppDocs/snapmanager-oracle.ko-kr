@@ -5,6 +5,7 @@ keywords: install, configuration, requirement
 summary: SnapManager를 설치하기 전에 일반 구성 요구 사항을 알아야 합니다. 
 ---
 = 지원되는 일반 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

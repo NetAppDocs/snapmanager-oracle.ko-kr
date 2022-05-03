@@ -5,6 +5,7 @@ keywords: snapmanager, require, repository, host, hold, data, operation, perform
 summary: SnapManager를 사용하려면 호스트에 있는 리포지토리가 수행하는 작업에 대한 데이터를 보류해야 합니다. 
 ---
 = 리포지토리를 생성하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

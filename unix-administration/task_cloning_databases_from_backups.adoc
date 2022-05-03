@@ -5,6 +5,7 @@ keywords: clone, database, backup, using, clone, create, command, sid, snapmanag
 summary: clone create 명령을 사용하여 백업에서 데이터베이스를 복제할 수 있습니다. 
 ---
 = 백업에서 데이터베이스 클론 생성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

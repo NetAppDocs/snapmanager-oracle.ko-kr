@@ -5,6 +5,7 @@ keywords: preview, information, backup, restore, process, occurs, eligibility, s
 summary: 백업 복원 프로세스가 발생하기 전에 백업 복원 프로세스에 대한 정보를 미리 보고 SnapManager for Oracle이 백업에서 찾은 복원 자격에 대한 정보를 확인할 수 있습니다. SnapManager는 백업 데이터를 분석하여 복원 프로세스를 성공적으로 완료할 수 있는지 여부를 결정합니다. 
 ---
 = 백업 복원 정보를 미리 보는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

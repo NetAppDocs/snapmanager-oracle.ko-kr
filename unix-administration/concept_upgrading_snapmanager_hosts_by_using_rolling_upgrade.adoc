@@ -5,6 +5,7 @@ keywords: roll, upgrade, approach, enable, host, stagger, host-by-host, manner, 
 summary: SnapManager 3.1에서는 호스트를 시차를 두고 호스트별로 업그레이드할 수 있는 롤링 업그레이드 방식이 지원됩니다. 
 ---
 = 롤링 업그레이드를 사용하여 SnapManager 호스트 업그레이드
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

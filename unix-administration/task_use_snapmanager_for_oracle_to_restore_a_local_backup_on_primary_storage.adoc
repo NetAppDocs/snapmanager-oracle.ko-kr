@@ -5,6 +5,7 @@ keywords: restore, local, backup, exist, primary, storage, entire, process, perf
 summary: 기본 스토리지에 있는 로컬 백업을 복구할 수 있습니다. 전체 프로세스는 Oracle용 SnapManager를 사용하여 수행됩니다. 
 ---
 = SnapManager for Oracle을 사용하여 운영 스토리지에서 로컬 백업을 복원합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

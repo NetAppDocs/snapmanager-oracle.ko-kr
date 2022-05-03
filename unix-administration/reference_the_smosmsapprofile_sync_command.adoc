@@ -5,6 +5,7 @@ keywords: command, load, profile-to-repository, mapping, repository, file, home,
 summary: 이 명령은 해당 리포지토리에 대한 프로파일 대 리포지토리 매핑을 로컬 호스트의 홈 디렉토리에 있는 파일로 로드합니다. 
 ---
 = SMO 프로필 동기화 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

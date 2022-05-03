@@ -5,6 +5,7 @@ keywords: oracle, stand-alone, product, netapp, application, technology, technol
 summary: Oracle용 SnapManager는 다른 NetApp 제품의 기능을 통합하여 최소한의 공간만 필요로 하는 신속한 백업을 지원하는 독립 실행형 제품입니다. 
 ---
 = 다른 NetApp 애플리케이션 및 기술과 통합
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

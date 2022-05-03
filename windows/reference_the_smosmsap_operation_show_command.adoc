@@ -5,6 +5,7 @@ keywords: run, operation, show, command, list, summary, information, profile, sm
 summary: 'operation show 명령을 실행하여 지정된 프로파일에 대해 수행된 모든 작업의 요약 정보를 나열할 수 있습니다. 출력에는 클라이언트 사용자 \(클라이언트 PC의 사용자\)와 유효 사용자(선택한 호스트에서 유효한 SnapManager의 사용자)가 나열됩니다.' 
 ---
 = SMO operation show 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

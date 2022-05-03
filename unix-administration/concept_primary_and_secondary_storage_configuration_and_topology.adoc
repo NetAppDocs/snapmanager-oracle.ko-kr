@@ -5,6 +5,7 @@ keywords: techco, payroll, database, snapmanager, primary, secondary, storage, c
 summary: 이 예에서 TechCo 법인은 급여 데이터베이스를 Oracle 호스트용 SnapManager인 데이터베이스 서버에서 실행하고 급여 데이터베이스 데이터 및 구성 파일을 회사 본사의 기본 스토리지 시스템에 저장합니다. 본사의 요구사항은 로컬 스토리지에 매일 그리고 매주 백업을 수행하고 50마일 떨어진 보조 스토리지 사이트에 있는 스토리지 시스템에 백업을 수행하여 데이터베이스를 보호하는 것입니다. 
 ---
 = 운영 및 2차 스토리지 구성 및 토폴로지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

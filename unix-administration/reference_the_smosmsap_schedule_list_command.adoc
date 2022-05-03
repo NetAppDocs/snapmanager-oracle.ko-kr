@@ -5,6 +5,7 @@ keywords: command, list, schedule, operation, associate, profile
 summary: 이 명령은 프로파일과 연결된 예약된 작업을 나열합니다. 
 ---
 = SMO 일정 목록 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

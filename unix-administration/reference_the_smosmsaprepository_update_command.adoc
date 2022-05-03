@@ -5,6 +5,7 @@ keywords: command, repository, store, database, profile, associate, credentials,
 summary: 이 명령은 SnapManager를 업그레이드할 때 데이터베이스 프로파일과 관련 자격 증명을 저장하는 저장소를 업데이트합니다. 새 버전의 SnapManager를 설치할 때마다 새 버전을 사용하기 전에 리포지토리 업데이트 명령을 실행해야 합니다. 리포지토리에 불완전한 명령이 없는 경우에만 이 명령을 사용할 수 있습니다. 
 ---
 = SMO 리포지토리 업데이트 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

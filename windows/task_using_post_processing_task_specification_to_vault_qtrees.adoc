@@ -5,6 +5,7 @@ keywords: snapmanager, oracle, enable, script, vault, qtree, backup, operation, 
 summary: SnapManager for Oracle을 사용하면 Windows 환경에서 백업 작업이 발생한 후 스크립트를 사용하여 qtree를 저장할 수 있습니다. 
 ---
 = 볼트 qtree에 후처리 작업 사양 사용
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

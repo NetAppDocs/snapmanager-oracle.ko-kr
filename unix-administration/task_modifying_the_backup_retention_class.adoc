@@ -5,6 +5,7 @@ keywords: upgrading, snapmanager, default, backup, retention, class, exist, modi
 summary: 업그레이드 후 SnapManager는 기본 백업 보존 클래스를 기존 백업에 할당합니다. 백업 요구 사항에 맞게 기본 보존 클래스 값을 수정할 수 있습니다. 
 ---
 = 백업 보존 클래스 수정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

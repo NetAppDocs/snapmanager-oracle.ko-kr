@@ -5,6 +5,7 @@ keywords: install, snapmanager, oracle, environment, preinstallation, task
 summary: Oracle용 SnapManager를 설치하기 전에 환경을 설정하기 위한 몇 가지 추가 작업을 수행해야 합니다. 수행해야 하는 작업은 운영 체제, Oracle 구성 요소 및 사용할 데이터베이스 버전에 따라 다릅니다. 
 ---
 = 사전 설치 작업
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

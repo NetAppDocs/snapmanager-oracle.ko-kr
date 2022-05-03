@@ -5,6 +5,7 @@ keywords: environment, requirement, run
 summary: 환경에 SnapManager를 구축하기 전에 먼저 다양한 요구사항을 파악해야 합니다. 
 ---
 = SnapManager 실행을 위한 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

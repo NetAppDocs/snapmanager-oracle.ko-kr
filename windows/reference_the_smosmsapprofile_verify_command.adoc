@@ -5,6 +5,7 @@ keywords: run, profile, verify, command, database, smo
 summary: 프로필 확인 명령을 실행하여 프로필 설정을 확인할 수 있습니다. 이 명령을 실행하기 전에 데이터베이스를 마운트해야 합니다. 
 ---
 = SMO 프로필 확인 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: snapmanager, flexclone, volume, nfs, environment, clone, backup, flexv
 summary: SnapManager가 NFS 환경에서 볼륨의 FlexClone을 생성하면 /etc/exports 파일에 항목이 추가됩니다. 클론 또는 백업이 SnapManager 호스트에 마운트되지 못하고 오류 메시지가 표시됩니다. 
 ---
 = NFS 환경에서 FlexClone 볼륨을 마운트할 수 없습니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

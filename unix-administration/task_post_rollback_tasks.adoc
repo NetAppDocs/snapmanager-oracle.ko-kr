@@ -5,6 +5,7 @@ keywords: perform, additional, step, rollback, repository, database, downgrade, 
 summary: 리포지토리 데이터베이스를 롤백하고 SnapManager 호스트를 SnapManager 3.2에서 SnapManager 3.0으로 다운그레이드한 후 몇 가지 추가 단계를 수행하여 이전 버전의 리포지토리 데이터베이스에서 만든 일정을 확인해야 합니다. 
 ---
 = 롤백 작업 후
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

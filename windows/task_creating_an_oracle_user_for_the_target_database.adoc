@@ -5,6 +5,7 @@ keywords: create, oracle, sysdba, role, connect, database, perform, operation, t
 summary: 데이터베이스에 연결하고 데이터베이스 작업을 수행하는 sysdba 역할을 사용하여 Oracle 사용자를 생성해야 합니다. 
 ---
 = 대상 데이터베이스에 대한 Oracle 사용자 생성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

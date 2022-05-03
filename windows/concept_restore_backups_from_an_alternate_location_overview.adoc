@@ -5,6 +5,7 @@ keywords: restore, database, backup, alternate, location, overview
 summary: 다른 위치에서 데이터베이스 백업을 복원하려면 다음 주요 단계를 사용합니다. 각 단계는 이 섹션에서 자세히 설명합니다. 
 ---
 = 대체 위치에서 백업 복구 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

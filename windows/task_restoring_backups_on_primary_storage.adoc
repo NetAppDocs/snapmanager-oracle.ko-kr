@@ -5,6 +5,7 @@ keywords: backup, restore, command, database, backup, primary, storage, restorin
 summary: 백업 복원 명령을 사용하여 기본 스토리지에서 데이터베이스 백업을 복원할 수 있습니다. 
 ---
 = 운영 스토리지에서 백업 복구
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

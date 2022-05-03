@@ -5,6 +5,7 @@ keywords: restore, alternate, location, connect, necessary, raw, device, local, 
 summary: 대체 위치에서 복구하기 전에 로컬 호스트에 있는 필요한 원시 디바이스에 접속해야 합니다. 
 ---
 = 원시 장치에서 데이터 복원
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

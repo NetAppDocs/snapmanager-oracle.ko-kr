@@ -5,6 +5,7 @@ keywords: command, delete, split, clone, database, profile, generate, snapmanage
 summary: '이 명령은 클론 분할 프로세스 중에 SnapManager에서 생성한 프로파일과 함께 분할 클론 \(데이터베이스\)을 삭제합니다.' 
 ---
 = SMO 프로필 삭제 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

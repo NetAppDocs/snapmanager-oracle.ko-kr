@@ -5,6 +5,7 @@ keywords: command, perform, roll, upgrade, single, multiple, host, associate, ta
 summary: 이 명령은 단일 호스트 또는 여러 호스트 및 관련 타겟 데이터베이스에서 SnapManager 하위 버전에서 상위 버전으로 롤링 업그레이드를 수행합니다. 업그레이드된 호스트는 상위 버전의 SnapManager에서만 관리됩니다. 
 ---
 = SMO 리포지토리 Rollingupgrade 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: command, disable, summary, notification, multiple, profile, database, 
 summary: 이 명령은 리포지토리 데이터베이스의 여러 프로필에 대한 요약 알림을 비활성화합니다. 
 ---
 = SMO notification remove-summary-notification 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

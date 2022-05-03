@@ -5,6 +5,7 @@ keywords: partition, snapmanager, support, device, red, hat, enterprise, linux, 
 summary: SnapManager에서 지원되는 다른 파티션 장치를 알고 있어야 합니다. 
 ---
 = 지원되는 파티션 장치
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

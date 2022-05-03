@@ -5,6 +5,7 @@ keywords: determine, cause, error, classification, message, log, issue, snapmana
 summary: 메시지 분류를 알고 있는 경우 오류의 원인을 확인할 수 있습니다. 
 ---
 = 오류 메시지 분류
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

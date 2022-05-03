@@ -5,6 +5,7 @@ keywords: addition, role-based, access, control, rbac, snapmanager, enable, pass
 summary: '역할 기반 액세스 제어\(RBAC\) 외에도 SnapManager를 사용하면 프로파일에 대한 암호를 설정하여 무단 액세스를 방지할 수 있습니다.' 
 ---
 = 프로파일에 대한 액세스 권한 부여
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: run, clone, delete, command, operation, smo
 summary: clone delete 명령을 실행하여 클론을 삭제할 수 있습니다. 클론이 작업에서 사용 중인 경우에는 클론을 삭제할 수 없습니다. 
 ---
 = SMO 복제 삭제 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

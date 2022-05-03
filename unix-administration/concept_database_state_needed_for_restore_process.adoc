@@ -5,6 +5,7 @@ keywords: state, database, restore, process, file
 summary: 복원할 데이터베이스의 상태는 수행하려는 복원 프로세스의 유형과 포함될 파일 유형에 따라 달라집니다. 
 ---
 = 복원 프로세스에 필요한 데이터베이스 상태입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

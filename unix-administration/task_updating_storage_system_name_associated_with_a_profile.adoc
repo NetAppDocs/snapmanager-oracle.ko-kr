@@ -5,6 +5,7 @@ keywords: snapmanager, 3.3, ability, update, host, name, ip, address, storage, s
 summary: SnapManager 3.3 이상에서는 프로필과 연결된 스토리지 시스템의 호스트 이름 또는 IP 주소를 업데이트할 수 있습니다. 
 ---
 = 프로파일과 연결된 스토리지 시스템 이름을 업데이트하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

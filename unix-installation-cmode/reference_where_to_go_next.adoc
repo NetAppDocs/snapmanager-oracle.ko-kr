@@ -5,6 +5,7 @@ keywords: install, snapmanager, succesful, creating, backup, restore, recovery, 
 summary: SnapManager를 설치하고 백업을 성공적으로 생성한 후 SnapManager를 사용하여 복원, 복구 및 클론 생성 작업을 수행할 수 있습니다. 또한 예약, SnapManager 운영 관리, 운영 기록 유지 관리 등과 같은 다른 SnapManager 기능에 대한 정보도 필요할 수 있습니다. 
 ---
 = 다음 단계로 넘어갑니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

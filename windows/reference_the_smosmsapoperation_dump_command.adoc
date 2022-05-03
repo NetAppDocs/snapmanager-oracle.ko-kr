@@ -5,6 +5,7 @@ keywords: run, operation, dump, command, create, jar, file, diagnostic, informat
 summary: 작업 덤프 명령을 실행하여 작업에 대한 진단 정보가 포함된 jar 파일을 생성할 수 있습니다. 
 ---
 = SMO 작동 덤프 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

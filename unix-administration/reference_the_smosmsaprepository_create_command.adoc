@@ -5,6 +5,7 @@ keywords: smo, repository, creat, command
 summary: 이 명령은 데이터베이스 프로필 및 관련 자격 증명을 저장할 저장소를 만듭니다. 
 ---
 = SMO repository create 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

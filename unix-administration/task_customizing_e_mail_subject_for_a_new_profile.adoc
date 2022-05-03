@@ -5,6 +5,7 @@ keywords: customize, email, subject, new, profile, create
 summary: 새 프로필을 만들 때 이메일 제목을 사용자 지정할 수 있습니다. 
 ---
 = 새 프로필에 대한 이메일 제목 사용자 지정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

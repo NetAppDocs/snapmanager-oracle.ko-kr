@@ -5,6 +5,7 @@ keywords: configuring, backup, schedule, storage, administrator, configure, prot
 summary: 백업 스케줄을 구성한 후 스토리지 관리자는 해당 스케줄이 포함될 보호된 백업 스토리지 정책을 구성합니다. 
 ---
 = Protection Manager를 사용하여 보조 백업 보호 정책을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

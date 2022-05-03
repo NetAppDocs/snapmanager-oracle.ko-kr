@@ -5,6 +5,7 @@ keywords: command, enable, clone, split, amount, storage, consume, estimate
 summary: 이 명령을 사용하면 클론 분할 예상 스토리지 양을 볼 수 있습니다. 
 ---
 = SMO 클론 분할-추정 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

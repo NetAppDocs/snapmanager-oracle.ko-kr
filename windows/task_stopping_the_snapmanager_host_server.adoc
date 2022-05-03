@@ -5,6 +5,7 @@ keywords: finish, snapmanager, stop, server, host
 summary: SnapManager 사용을 마치면 서버를 중지할 수 있습니다. 
 ---
 = SnapManager 호스트 서버를 중지하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

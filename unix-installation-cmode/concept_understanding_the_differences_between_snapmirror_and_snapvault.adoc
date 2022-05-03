@@ -5,6 +5,7 @@ keywords: snapmirror, disaster, recovery, technology, design, failover, primary,
 summary: SnapMirror는 재해 복구 기술로, 지리적으로 원격 사이트의 운영 스토리지에서 2차 스토리지로 페일오버하도록 설계되었습니다. SnapVault는 표준 규정 준수 및 기타 거버넌스 관련 목적을 위해 D2D Snapshot 복사본 복제를 위해 설계된 아카이빙 기술입니다. 
 ---
 = SnapMirror와 SnapVault 간의 차이점 이해
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

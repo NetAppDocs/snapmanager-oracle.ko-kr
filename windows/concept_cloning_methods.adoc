@@ -5,6 +5,7 @@ keywords: clone, cloning, method, database
 summary: 두 가지 방법 중 하나를 사용하여 데이터베이스를 복제할 수 있습니다. 선택하는 방법은 클론 생성 작업에 영향을 줍니다. 
 ---
 = 클론 생성 방법
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

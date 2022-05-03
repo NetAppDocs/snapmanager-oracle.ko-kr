@@ -5,6 +5,7 @@ keywords: command, reference, valid, syntax, option, parameter, argument, oracle
 summary: SnapManager 명령 참조에는 명령과 함께 제공해야 하는 유효한 사용 구문, 옵션, 매개 변수 및 인수가 포함되어 있습니다. 
 ---
 = SnapManager for Oracle 명령 참조
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

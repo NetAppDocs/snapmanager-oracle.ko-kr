@@ -5,6 +5,7 @@ keywords: issue, cli, command, host, database, snapmanager, route, appropriate, 
 summary: 데이터베이스 호스트가 아닌 호스트에서 CLI 명령을 실행할 수 있으며 SnapManager는 사용자가 입력하는 명령을 적절한 호스트로 라우팅합니다. 
 ---
 = 대체 호스트에서 명령을 실행합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

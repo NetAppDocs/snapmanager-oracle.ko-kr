@@ -5,6 +5,7 @@ keywords: oracle, database, 9i, snapamanager, 10gr2
 summary: 'Oracle 데이터베이스 9i는 SnapManager 3.2 이상에서 지원되지 않으며 Oracle 데이터베이스 10gR2(10.2.0.4 이전)는 SnapManager 3.3.1 이상에서 지원되지 않습니다.' 
 ---
 = 더 이상 사용되지 않는 버전의 Oracle 데이터베이스
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

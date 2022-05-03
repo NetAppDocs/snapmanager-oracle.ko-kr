@@ -5,6 +5,7 @@ keywords: verify, backup, database, backed-up, file, not, corrupt, snapmanager
 summary: 백업 파일이 손상되지 않도록 데이터베이스의 백업을 확인할 수 있습니다. 
 ---
 = 데이터베이스 백업을 확인하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: snapmanager, restore, data, file, control, location, snapshot, origina
 summary: SnapManager를 사용하면 원래 볼륨의 스냅샷 복사본 이외의 위치에서 데이터 파일과 제어 파일을 복원할 수 있습니다. 
 ---
 = 대체 위치에서 파일을 복원합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

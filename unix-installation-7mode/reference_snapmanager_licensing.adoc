@@ -5,6 +5,7 @@ keywords: snapmanager, license, storage, system, license, require, operation
 summary: SnapManager 작업을 활성화하려면 SnapManager 라이센스와 여러 스토리지 시스템 라이센스가 필요합니다. SnapManager 라이센스는 두 가지 라이센스 모델, 즉 SnapManager 라이센스가 각 데이터베이스 호스트에 있는 서버당 라이센스 모델과 SnapManager 라이센스가 스토리지 시스템에 상주하는 스토리지당 시스템 라이센스 모델로 제공됩니다. 
 ---
 = SnapManager 라이센스
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

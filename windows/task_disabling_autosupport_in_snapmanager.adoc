@@ -5,6 +5,7 @@ keywords: disable, autosupport, storage, system, message, receive, snapmanager, 
 summary: 스토리지 시스템이 성공적인 백업 작업에 대해 SnapManager 서버로부터 메시지를 수신하지 않도록 하려면 AutoSupport를 해제해야 합니다. 
 ---
 = SnapManager에서 AutoSupport를 비활성화합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

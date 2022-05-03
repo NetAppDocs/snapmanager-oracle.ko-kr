@@ -5,6 +5,7 @@ keywords: delete, backup, free, space, backup, occupy, snapshot, copies, copy, v
 summary: 백업을 더 이상 필요로 하지 않을 때 삭제해야 하므로 해당 백업이 차지하는 공간이 확보됩니다. 백업을 제거하면 볼륨당 255개의 스냅샷 복사본의 제한에 도달할 수 있는 가능성이 줄어듭니다. 
 ---
 = 백업을 삭제하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

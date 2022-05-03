@@ -5,6 +5,7 @@ keywords: run, profile, create, command, database, repository, smo
 summary: profile create 명령을 실행하여 리포지토리에 데이터베이스의 프로필을 만들 수 있습니다. 이 명령을 실행하기 전에 데이터베이스를 마운트해야 합니다. 
 ---
 = SMO 프로필 작성 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

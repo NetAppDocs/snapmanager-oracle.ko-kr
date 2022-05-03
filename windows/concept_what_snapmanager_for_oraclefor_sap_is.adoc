@@ -5,6 +5,7 @@ keywords: tools, require, perform, policy-driven, data, management, schedule, cr
 summary: SnapManager는 정책 기반 데이터 관리를 수행하고, 정기적인 데이터베이스 백업을 예약 및 생성하고, 데이터 손실 또는 재해 발생 시 이러한 백업에서 데이터를 복원하고, 데이터베이스 클론을 생성하는 데 필요한 툴을 제공합니다. 사후 처리 스크립트를 사용하여 운영 스토리지에 백업을 생성하고 보조 스토리지에 보호된 백업을 생성할 수 있습니다. 
 ---
 = SnapManager for Oracle은 SnapManagerfor Oracle이란 무엇일까요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: ensure, license, data, protection, install, enable, primary, secondary
 summary: 운영 및 2차 스토리지 시스템에서 데이터 보호에 필요한 라이센스가 설치 및 설정되어 있는지 확인해야 합니다. 
 ---
 = SnapManager의 데이터 보호에 필요한 라이센스
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

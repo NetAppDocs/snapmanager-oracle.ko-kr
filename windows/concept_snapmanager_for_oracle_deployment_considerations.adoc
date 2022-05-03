@@ -5,6 +5,7 @@ keywords: deploy, environment, application, technologies, technology, operation
 summary: 환경에 SnapManager를 구축하기 전에 다른 운영에 필요한 다른 애플리케이션과 기술을 파악해야 합니다. 
 ---
 = SnapManager for Oracle 구축 고려 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

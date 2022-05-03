@@ -5,6 +5,7 @@ keywords: online, help, instruction, task, perform, snapmanager, graphical, user
 summary: 온라인 도움말은 SnapManager 그래픽 사용자 인터페이스를 사용하여 수행할 수 있는 작업에 대한 지침을 제공합니다. 또한 온라인 도움말에서는 Windows 및 마법사의 필드에 대한 설명을 제공합니다. 
 ---
 = 온라인 도움말 액세스 및 인쇄
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

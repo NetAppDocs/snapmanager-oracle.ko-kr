@@ -5,6 +5,7 @@ keywords: create, backup, schedule, pruning, prune, archive, log, file, scheduli
 summary: 백업을 생성할 때 지정된 시간에 아카이브 로그 파일을 정리하도록 예약할 수 있습니다. 
 ---
 = 아카이브 로그 파일 잘라내기 예약
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

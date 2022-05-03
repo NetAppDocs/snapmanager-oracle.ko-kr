@@ -5,6 +5,7 @@ keywords: memory, disk, space, cpu, requirement, host, hardware
 summary: 메모리, 디스크 공간 및 CPU 요구 사항을 고려합니다. 
 ---
 = 지원되는 호스트 하드웨어입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

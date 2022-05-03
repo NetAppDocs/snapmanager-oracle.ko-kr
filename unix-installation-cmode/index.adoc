@@ -5,6 +5,7 @@ keywords: installation, setup, guide, unix, 3.4.2
 summary: UNIX ® 용 SnapManager 3.4.2 설치 및 설정 가이드 
 ---
 = UNIX ® 용 설치 및 설정 가이드
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

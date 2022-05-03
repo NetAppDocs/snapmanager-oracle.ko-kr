@@ -5,6 +5,7 @@ keywords: dba, backup, loss, data, disaster, regulatory, schedule, retention, st
 summary: DBA는 데이터 손실 시, 재해 발생 시, 규정 상의 이유로 백업을 사용할 수 있기를 원합니다. 이를 위해서는 다양한 데이터베이스에 대해 신중하게 고려되는 보존 정책이 필요합니다. 
 ---
 = 백업 일정 및 보존 전략
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

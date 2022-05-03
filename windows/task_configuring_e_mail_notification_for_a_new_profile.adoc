@@ -5,6 +5,7 @@ keywords: creating, new, profile, configure, email, notification, completion, da
 summary: 새 프로필을 만드는 경우 데이터베이스 작업이 완료되면 이메일 알림을 받도록 을 구성할 수 있습니다. 
 ---
 = 새 프로필에 대한 이메일 알림을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

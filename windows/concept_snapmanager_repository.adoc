@@ -5,6 +5,7 @@ keywords: repository, store, information, relate, operation, backup, tablespace,
 summary: 리포지토리는 백업 시간, 테이블스페이스 및 백업된 데이터 파일, 사용된 스토리지 시스템, 생성된 클론, 생성된 스냅샷 복사본 등 다양한 SnapManager 작업과 관련된 정보를 저장합니다. 
 ---
 = SnapManager 리포지토리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

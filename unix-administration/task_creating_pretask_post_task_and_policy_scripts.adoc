@@ -5,6 +5,7 @@ keywords: snapmanager, enable, create, script, preprocess, activity, post-proces
 summary: SnapManager를 사용하면 전처리 작업, 사후 처리 작업 및 백업, 복원 및 클론 작업의 정책 작업에 대한 스크립트를 생성할 수 있습니다. SnapManager 작업의 전처리 작업, 후처리 작업 및 정책 작업을 실행하려면 올바른 설치 디렉토리에 스크립트를 배치해야 합니다. 
 ---
 = 사전 작업, 사후 작업 및 정책 스크립트 생성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

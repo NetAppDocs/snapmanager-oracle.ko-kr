@@ -5,6 +5,7 @@ keywords: repository, database, instance, oracle, snapmanager, repository, stand
 summary: 리포지토리 데이터베이스 인스턴스는 SnapManager 리포지토리를 생성하는 Oracle 데이터베이스입니다. 리포지토리 데이터베이스 인스턴스는 독립 실행형 데이터베이스여야 하며 대상 데이터베이스일 수 없습니다. 
 ---
 = 리포지토리 데이터베이스 인스턴스를 만드는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

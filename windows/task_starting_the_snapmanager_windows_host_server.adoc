@@ -5,6 +5,7 @@ keywords: start, snapmanager, server, windows, service, host
 summary: Windows 서비스를 사용하여 SnapManager 서버를 시작할 수 있습니다. 
 ---
 = SnapManager 호스트 서버를 시작하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

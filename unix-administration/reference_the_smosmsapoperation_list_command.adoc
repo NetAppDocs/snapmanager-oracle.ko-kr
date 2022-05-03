@@ -5,6 +5,7 @@ keywords: command, list, summary, information, operation, record, specified, pro
 summary: 이 명령은 지정된 프로파일에 대해 기록된 모든 작업의 요약 정보를 나열합니다. 
 ---
 = SMO 작동 목록 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

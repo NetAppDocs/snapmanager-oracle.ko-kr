@@ -5,6 +5,7 @@ keywords: command, display, current, profile, smo
 summary: 이 명령은 현재 프로파일 목록을 표시합니다. 
 ---
 = SMO 프로필 목록 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: flexclone, database, backup, clone
 summary: SnapManager은 FlexClone 기술을 사용하여 데이터베이스 백업의 쓰기 가능하고 공간 효율적인 클론을 생성합니다. 백업 소스를 변경하지 않고 클론을 수정할 수 있습니다. 
 ---
 = 데이터베이스 백업 클론
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

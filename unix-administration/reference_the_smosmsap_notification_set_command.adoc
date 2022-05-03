@@ -5,6 +5,7 @@ keywords: notification, set, command, configure, mail, server, smo, email, sende
 summary: notification set 명령을 사용하여 메일 서버를 구성할 수 있습니다. 
 ---
 = SMO 알림 설정 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

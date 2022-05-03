@@ -5,6 +5,7 @@ keywords: snapmanager, protect, backup, copies, secondary, tertiary, storage, sy
 summary: SnapManager를 사용하여 2차 또는 3차 스토리지 시스템의 백업 복사본을 보호할 수 있습니다. 
 ---
 = 2차 또는 3차 스토리지에서 데이터베이스 백업 보호
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: command, update, name, ip, address, storage, system, rename, smo
 summary: 이 명령은 스토리지 시스템의 이름 또는 IP 주소를 업데이트합니다. 
 ---
 = SMO 스토리지 이름 바꾸기 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

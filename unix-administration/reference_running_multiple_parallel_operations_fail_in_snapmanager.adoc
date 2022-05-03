@@ -5,6 +5,7 @@ keywords: multiple, parallel, operation, seperate, database, storage, system, lu
 summary: 동일한 스토리지 시스템에 상주하는 개별 데이터베이스에서 여러 개의 병렬 작업을 실행할 경우 작업 중 하나로 인해 두 데이터베이스와 연결된 LUN의 igroup이 삭제될 수 있습니다. 나중에 다른 작업에서 삭제된 igroup을 사용하려고 시도하면 SnapManager에 오류 메시지가 표시됩니다. 
 ---
 = SnapManager에서 여러 병렬 작업을 실행하지 못합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

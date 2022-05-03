@@ -5,6 +5,7 @@ keywords: dba, snapmanager, storage, administrator, netapp, management, console,
 summary: '이 예에서 DBA(SnapManager 사용) 및 스토리지 관리자(NetApp 관리 콘솔 데이터 보호 기능 사용)는 타겟 데이터베이스의 로컬 백업 및 보조 백업(보호 백업이라고도 함)을 구성하기 위한 작업을 조정합니다.' 
 ---
 = 로컬 및 보조 데이터베이스 백업에 대한 워크플로우 요약
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

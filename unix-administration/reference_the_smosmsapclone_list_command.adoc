@@ -5,6 +5,7 @@ keywords: command, list, clone, database, given, profile, smo
 summary: 이 명령은 지정된 프로필에 대한 데이터베이스 클론을 나열합니다. 
 ---
 = SMO 복제 목록 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

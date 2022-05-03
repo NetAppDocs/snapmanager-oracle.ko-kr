@@ -5,6 +5,7 @@ keywords: snapmanager, enable, customize, email, subject, pattern, exist, profil
 summary: SnapManager를 사용하면 해당 프로필을 업데이트하여 기존 프로필에 대한 이메일 제목 패턴을 사용자 지정할 수 있습니다. 이 사용자 지정 제목 패턴은 업데이트된 프로필에만 적용됩니다. 
 ---
 = 기존 프로필에 대한 이메일 제목 사용자 지정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

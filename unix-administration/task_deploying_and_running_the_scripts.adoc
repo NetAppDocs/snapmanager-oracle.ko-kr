@@ -5,6 +5,7 @@ keywords: deploy, run, asmmain.sh, asmquerydisk.sh, script, support, asm, databa
 summary: asmmain.sh 및 asmquerydisk.sh 스크립트를 배포하고 실행하여 ASMLib 없이 ASM 데이터베이스를 지원할 수 있습니다. 
 ---
 = 스크립트 배포 및 실행
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

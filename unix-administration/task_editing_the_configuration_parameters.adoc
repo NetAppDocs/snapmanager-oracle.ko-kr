@@ -5,6 +5,7 @@ keywords: depend, environment, default, value, assign, configuration, parameter,
 summary: 환경에 따라 구성 매개 변수에 할당된 기본값을 변경할 수 있습니다. 
 ---
 = 구성 매개 변수 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

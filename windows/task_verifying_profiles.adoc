@@ -5,6 +5,7 @@ keywords: verify, exist, profile, correct, snapmanager, environment
 summary: 기존 프로필이 올바르게 설정되었는지 확인할 수 있습니다. 프로파일을 확인할 때 SnapManager는 지정한 프로파일의 환경을 확인하고 프로파일이 설정되어 있고 이 프로파일의 데이터베이스에 액세스할 수 있는지 확인합니다. 
 ---
 = 프로파일을 확인하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

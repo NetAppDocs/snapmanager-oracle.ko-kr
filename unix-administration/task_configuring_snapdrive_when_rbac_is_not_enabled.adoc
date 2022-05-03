@@ -5,6 +5,7 @@ keywords: register, root, user, administrator, datafabric, manager, server, root
 summary: 데이터 보호를 설정하려면 DataFabric Manager 서버의 루트 사용자 또는 관리자와 SnapDrive를 사용하여 스토리지 시스템의 루트 사용자를 등록해야 합니다. 
 ---
 = RBAC가 설정되어 있지 않은 경우 SnapDrive 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

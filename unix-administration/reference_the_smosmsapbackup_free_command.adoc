@@ -5,6 +5,7 @@ keywords: run, backup, free, command, snapshot, copies, metadata, smo
 summary: backup free 명령을 실행하여 리포지토리에서 백업 메타데이터를 제거하지 않고 백업의 Snapshot 복사본을 사용할 수 있습니다. 
 ---
 = SMO backup free 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

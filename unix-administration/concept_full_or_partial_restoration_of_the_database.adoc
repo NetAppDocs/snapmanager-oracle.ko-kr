@@ -5,6 +5,7 @@ keywords: snapmanager, flexibility, restore, full, database, tablespace, file, d
 summary: SnapManager는 전체 데이터베이스, 특정 테이블스페이스, 파일, 제어 파일 또는 이러한 엔터티의 조합을 유연하게 복원할 수 있습니다. SnapManager를 사용하면 파일 기반 복원 프로세스 또는 더 빠른 볼륨 기반 복원 프로세스를 사용하여 데이터를 복원할 수 있습니다. 데이터베이스 관리자는 사용할 프로세스를 선택하거나 SnapManager에서 적절한 프로세스를 결정하도록 할 수 있습니다. 
 ---
 = 전체 또는 부분 데이터베이스 복원
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

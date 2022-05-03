@@ -5,6 +5,7 @@ keywords: install, snapmanager, host, database, manage, install
 summary: 관리할 데이터베이스가 하나 이상 있는 호스트에 SnapManager를 설치할 수 있습니다. 호스트당 하나의 SnapManager 인스턴스만 설치할 수 있습니다. 
 ---
 = Oracle용 SnapManager 설치
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

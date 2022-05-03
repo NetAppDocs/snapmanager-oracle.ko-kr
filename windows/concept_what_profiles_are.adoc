@@ -5,6 +5,7 @@ keywords: profile, store, information, necessary, operation, database
 summary: SnapManager는 프로파일을 사용하여 지정된 데이터베이스에서 작업을 수행하는 데 필요한 정보를 저장합니다. 프로파일에는 해당 자격 증명, 백업 및 클론을 포함한 데이터베이스에 대한 정보가 들어 있습니다. 프로파일을 만들면 해당 데이터베이스에서 작업을 수행할 때마다 데이터베이스 세부 정보를 지정할 필요가 없습니다. 
 ---
 = 프로파일이란 무엇입니까
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

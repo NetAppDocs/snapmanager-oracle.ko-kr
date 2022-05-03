@@ -5,6 +5,7 @@ keywords: control, file, archive, handling, log, backup
 summary: SnapManager에는 제어 파일이 포함되어 있으며 필요에 따라 각 백업과 함께 아카이브 로그 파일을 포함합니다. 아카이브 로그 파일은 복구 작업에 사용됩니다. 
 ---
 = 제어 파일 및 아카이브 로그 파일 처리에 대해 설명합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

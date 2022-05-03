@@ -5,6 +5,7 @@ keywords: clone, split, command, independent, original, snapmanager
 summary: 클론 분할 명령을 실행하여 클론을 분할할 수 있습니다. 분할된 클론은 원래 클론과 독립됩니다. SnapManager는 클론 분할 작업 후에 새 프로파일을 생성하며 이 프로파일을 사용하여 분할 클론을 관리할 수 있습니다. 
 ---
 = SMO 클론 분할 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

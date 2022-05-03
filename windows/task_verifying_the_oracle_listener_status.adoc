@@ -5,6 +5,7 @@ keywords: verify, oracle, listener, status, lsnrctl, command
 summary: lsnrctl status 명령을 사용하여 Oracle 리스너 상태를 확인할 수 있습니다. 
 ---
 = Oracle 리스너 상태를 확인하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

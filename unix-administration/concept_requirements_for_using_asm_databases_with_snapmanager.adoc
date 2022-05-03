@@ -5,6 +5,7 @@ keywords: automatic, storage, management, asm, snapmanager, database, snapmanage
 summary: 'SnapManager와 함께 자동 스토리지 관리(ASM) 데이터베이스를 사용하기 위한 요구 사항을 알고 있어야 합니다. 이러한 요구 사항을 알면 ASMLib, 파티션 및 복제 사양과 관련된 문제를 방지할 수 있습니다.' 
 ---
 = SnapManager와 함께 ASM 데이터베이스를 사용하기 위한 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

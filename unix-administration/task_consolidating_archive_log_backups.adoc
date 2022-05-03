@@ -5,6 +5,7 @@ keywords: snapmanager, consolidate, archivelog-only backup, every, time, duplica
 summary: SnapManager는 중복 아카이브 전용 백업을 확보하여 백업을 수행할 때마다 아카이브 전용 백업을 통합합니다. 기본적으로 통합은 활성화되어 있습니다. 
 ---
 = 아카이브 로그 백업 통합
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

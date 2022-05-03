@@ -5,6 +5,7 @@ keywords: host, install, snapmanager, software, browser, database, operating, sy
 summary: SnapManager를 설치하는 호스트는 지정된 소프트웨어, 브라우저, 데이터베이스 및 운영 체제 요구 사항을 충족해야 합니다. SnapManager를 설치하거나 업그레이드하기 전에 구성에 대한 지원을 확인해야 합니다. 
 ---
 = 지원되는 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

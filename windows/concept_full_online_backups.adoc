@@ -5,6 +5,7 @@ keywords: full, online, backup, database, snapshot, copies, copy
 summary: 전체 온라인 백업 중에 SnapManager는 전체 데이터베이스를 백업하고 테이블스페이스 레벨이 아닌 볼륨 레벨에서 스냅샷 복사본을 생성합니다. 
 ---
 = 전체 온라인 백업
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

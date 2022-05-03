@@ -5,6 +5,7 @@ keywords: create, task, specification, file, graphical, user, interface, gui, co
 summary: '그래픽 사용자 인터페이스\(GUI\), 명령줄 인터페이스\(CLI\) 또는 텍스트 편집기를 사용하여 작업 사양 파일을 작성할 수 있습니다. 이러한 파일은 백업, 복원 또는 클론 작업의 전처리 또는 사후 처리 작업을 수행하는 데 사용됩니다.' 
 ---
 = 작업 사양 파일을 작성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

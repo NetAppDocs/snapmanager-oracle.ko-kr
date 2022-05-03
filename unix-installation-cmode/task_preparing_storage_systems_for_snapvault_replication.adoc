@@ -5,6 +5,7 @@ keywords: snapmanager, integrated, snapvault, technology, archive, snapshot, cop
 summary: SnapManager의 통합 SnapVault 기술을 사용하여 스냅샷 복사본을 디스크에 아카이브하려면 먼저 소스 볼륨과 타겟 볼륨 간의 데이터 보호 관계를 구성한 다음 관계를 초기화해야 합니다. 초기화 시 SnapVault은 소스 볼륨의 스냅샷 복사본을 생성한 다음 복사본 및 해당 복사본이 대상 볼륨에 참조하는 모든 데이터 블록을 전송합니다. 
 ---
 = SnapVault 복제를 위한 스토리지 시스템 준비
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

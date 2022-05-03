@@ -5,6 +5,7 @@ keywords: target, database, oracle, configure, standalone, real, application, cl
 summary: '타겟 데이터베이스는 독립 실행형, RAC(Real Application Clusters), ASM(Automatic Storage Management) 또는 기타 지원되는 조합으로 구성할 수 있는 Oracle 데이터베이스입니다.' 
 ---
 = 대상 데이터베이스 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

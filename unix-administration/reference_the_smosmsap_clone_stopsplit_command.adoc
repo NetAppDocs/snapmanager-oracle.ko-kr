@@ -5,6 +5,7 @@ keywords: command, stop, running, clone, split, process, split-stop, smo
 summary: 이 명령은 실행 중인 클론 분할 프로세스를 중지합니다. 
 ---
 = SMO 클론 분할/중지 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

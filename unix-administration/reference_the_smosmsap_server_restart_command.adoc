@@ -5,6 +5,7 @@ keywords: command, restart, snapmanager, host, server, root, smo_server
 summary: 이 명령은 SnapManager 호스트 서버를 다시 시작하고 루트로 입력합니다. 
 ---
 = smo_server restart 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

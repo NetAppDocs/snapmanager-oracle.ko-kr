@@ -5,6 +5,7 @@ keywords: clone, create, command, backed, up, database, primary, secondary, stor
 summary: clone create 명령을 실행하여 백업된 데이터베이스의 클론을 생성할 수 있습니다. 기본 또는 보조 스토리지에서 백업을 클론 복제할 수 있습니다. 
 ---
 = SMO 복제 create 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

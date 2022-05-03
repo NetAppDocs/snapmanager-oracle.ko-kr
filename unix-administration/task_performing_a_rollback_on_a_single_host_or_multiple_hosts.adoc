@@ -5,6 +5,7 @@ keywords: perform, rollback, single, multiple, snapmanager, server, host, comman
 summary: '명령줄 인터페이스 \(CLI\)를 사용하여 단일 또는 여러 SnapManager 서버 호스트에서 롤백을 수행할 수 있습니다.' 
 ---
 = 단일 호스트 또는 여러 호스트에 대한 롤백 수행
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

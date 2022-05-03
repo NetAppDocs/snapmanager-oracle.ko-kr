@@ -5,6 +5,7 @@ keywords: java, web, start, snapmanager, install, host, download, component, gra
 summary: 'SnapManager가 호스트에 설치되어 있지 않은 경우 Java Web Start를 사용할 수 있습니다. Java Web Start는 SnapManager 구성 요소를 다운로드하고 그래픽 사용자 인터페이스(GUI)를 시작합니다. 지원되는 JRE 버전은 1.5, 1.6 및 1.7입니다.' 
 ---
 = Java Web Start를 사용하여 그래픽 사용자 인터페이스를 다운로드하고 시작합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

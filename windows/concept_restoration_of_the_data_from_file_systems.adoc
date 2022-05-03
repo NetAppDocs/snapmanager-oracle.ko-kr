@@ -5,6 +5,7 @@ keywords: restore, data, alternate, location, necessary, file, system, local, re
 summary: 대체 위치에서 데이터를 복구하기 전에 필요한 파일 시스템을 복구하고 로컬 호스트에 마운트해야 합니다. 
 ---
 = 파일 시스템에서 데이터 복구
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

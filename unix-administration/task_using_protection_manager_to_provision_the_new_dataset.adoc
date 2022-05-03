@@ -5,6 +5,7 @@ keywords: smo_paydb, dataset, create, storage, administrator, protection, manage
 summary: SMO_PAYdb 데이터 세트가 생성된 후 스토리지 관리자는 Protection Manager를 사용하여 데이터 세트의 백업 노드를 프로비저닝하기 위해 스토리지 시스템 리소스를 할당합니다. 
 ---
 = Protection Manager를 사용하여 새 데이터 세트 프로비저닝
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

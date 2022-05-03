@@ -5,6 +5,7 @@ keywords: create, backup, snapmanager, install, snapdrive, unix, oracle, deploym
 summary: SnapManager를 사용하여 백업을 생성하려면 먼저 UNIX용 SnapDrive를 설치한 다음 SnapManager for Oracle을 설치해야 합니다. 
 ---
 = 구축 워크플로우
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

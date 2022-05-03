@@ -5,6 +5,7 @@ keywords: run, profile, dump, command, create, jar, file, contain, diagnostic, i
 summary: 프로필 덤프 명령을 실행하여 프로필에 대한 진단 정보가 포함된 .jar 파일을 만들 수 있습니다. 
 ---
 = SMO 프로필 덤프 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: run, backup, verify, command, format, oracle, valid, smo
 summary: backup verify 명령을 실행하여 백업이 Oracle에 유효한 형식인지 확인할 수 있습니다. 
 ---
 = SMO 백업 확인 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

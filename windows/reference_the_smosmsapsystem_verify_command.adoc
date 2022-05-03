@@ -5,6 +5,7 @@ keywords: command, confirm, component, environment, run, snapmanager, smo
 summary: 이 명령은 SnapManager를 실행하는 데 필요한 환경의 모든 구성 요소가 올바르게 설정되었는지 확인합니다. 
 ---
 = SMO 시스템 verify 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

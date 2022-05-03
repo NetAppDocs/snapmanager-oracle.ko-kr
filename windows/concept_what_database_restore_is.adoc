@@ -5,6 +5,7 @@ keywords: enable, perform, file-based, backup, restore, operation
 summary: SnapManager를 사용하면 파일 기반 백업 및 복원 작업을 수행할 수 있습니다. 
 ---
 = 데이터베이스 복원이란 무엇입니까
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: sample, script, plugin, example, noasmlib, snapmanager, oracle, instal
 summary: 샘플 스크립트는 SnapManager for Oracle 설치 디렉토리의 plugins/examples/noasmlib 디렉토리에 있습니다. 
 ---
 = ASMLib 없이 ASM 데이터베이스를 지원하는 샘플 스크립트
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

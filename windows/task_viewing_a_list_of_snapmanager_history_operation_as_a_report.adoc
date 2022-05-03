@@ -5,6 +5,7 @@ keywords: view, history, specific, snapmanager, operation, report, base, retenti
 summary: 특정 또는 모든 SnapManager 작업의 기록을 보존 설정에 따라 보고서로 볼 수 있습니다. 
 ---
 = SnapManager 작업 기록 목록 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

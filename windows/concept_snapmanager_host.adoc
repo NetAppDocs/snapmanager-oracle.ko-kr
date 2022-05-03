@@ -5,6 +5,7 @@ keywords: windows, server, netapp, product
 summary: SnapManager 호스트는 Windows 서버이며 다른 NetApp 제품도 실행됩니다. 
 ---
 = SnapManager 호스트
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

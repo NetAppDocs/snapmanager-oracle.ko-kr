@@ -5,6 +5,7 @@ keywords: naming, name, pattern, describe, snapshot, copy, copies, profile, crea
 summary: 생성 또는 업데이트하는 프로필과 관련된 스냅샷 복사본을 설명하기 위해 명명 규칙 또는 패턴을 지정할 수 있습니다. 모든 스냅샷 복사본 이름에 사용자 지정 텍스트를 포함할 수도 있습니다. 
 ---
 = 스냅샷 복사본 이름 지정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

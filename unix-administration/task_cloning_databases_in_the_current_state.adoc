@@ -5,6 +5,7 @@ keywords: create, backup, clone, database, current, state, single, command, smo
 summary: 단일 명령을 사용하여 데이터베이스의 현재 상태에서 데이터베이스의 백업 및 클론을 생성할 수 있습니다. 
 ---
 = 현재 상태의 데이터베이스 클론 생성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

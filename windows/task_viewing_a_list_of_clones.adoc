@@ -5,6 +5,7 @@ keywords: view, list, clone, associate, particular, profile
 summary: 특정 프로파일과 연결된 클론 목록을 볼 수 있습니다. 
 ---
 = 클론 목록 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

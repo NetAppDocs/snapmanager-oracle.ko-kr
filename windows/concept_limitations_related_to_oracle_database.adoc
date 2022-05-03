@@ -5,6 +5,7 @@ keywords: limitation, oracle, database
 summary: SnapManager를 사용하기 전에 Oracle 데이터베이스와 관련된 제한 사항을 알아야 합니다. 
 ---
 = Oracle 데이터베이스와 관련된 제한 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

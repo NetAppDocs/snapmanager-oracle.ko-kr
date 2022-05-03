@@ -5,6 +5,7 @@ keywords: defining, backup, strategy, creating, successful, database, snapmanage
 summary: '백업을 생성하기 전에 백업 전략을 정의하면 데이터베이스를 성공적으로 복원할 수 있는 백업이 있습니다. SnapManager는 서비스 수준 계약(SLA)을 충족할 수 있는 유연하고 세분화된 백업 일정을 제공합니다.' 
 ---
 = 백업 전략 정의
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

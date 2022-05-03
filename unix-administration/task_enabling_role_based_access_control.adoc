@@ -5,6 +5,7 @@ keywords: snapmanager, role-based, access, control, rbac, enable, snapdrive, ins
 summary: 'SnapManager 역할 기반 액세스 제어\(RBAC\)는 SnapDrive를 사용하여 설정됩니다. SnapDrive를 설치하면 RBAC가 기본적으로 사용되지 않습니다. SnapDrive에서 RBAC를 사용하도록 설정한 후 SnapManager는 RBAC가 활성화된 상태로 작업을 수행합니다.' 
 ---
 = 역할 기반 액세스 제어 설정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

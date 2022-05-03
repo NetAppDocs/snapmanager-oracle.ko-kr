@@ -5,6 +5,7 @@ keywords: oracle, rac, database, node, initasmdisk, file
 summary: Oracle RAC 데이터베이스를 사용하는 경우 마스터 RAC 노드에서 작업을 수행할 때마다 RAC 노드를 initasmdisks 파일로 업데이트해야 합니다. 
 ---
 = ASMLib 없이 Oracle RAC ASM 데이터베이스 지원
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

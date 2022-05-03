@@ -5,6 +5,7 @@ keywords: snapmanager, integrated, technology, mirror, snapshot, copies, data-pr
 summary: SnapManager의 통합 SnapMirror 기술을 사용하여 Snapshot 복사본을 미러링하려면 먼저 소스 볼륨과 타겟 볼륨 간의 데이터 보호 관계를 구성한 다음 관계를 초기화해야 합니다. 초기화 시 SnapMirror는 소스 볼륨의 스냅샷 복사본을 생성한 다음 복사본 및 이 복사본이 대상 볼륨에 참조하는 모든 데이터 블록을 전송합니다. 또한 소스 볼륨에 있는 비교적 최신 Snapshot 복사본 중 하나를 타겟 볼륨으로 전송합니다. 
 ---
 = SnapMirror 복제를 위한 스토리지 시스템 준비
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

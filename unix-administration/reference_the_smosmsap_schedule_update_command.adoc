@@ -5,6 +5,7 @@ keywords: command, update, schedule, backup, profile
 summary: 이 명령은 백업 일정을 업데이트합니다. 
 ---
 = SMO 일정 업데이트 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: creating, profile, back, up, database, schedule, recurring, database, 
 summary: 프로필을 만든 후에는 데이터베이스를 백업해야 합니다. 초기 백업 및 검증 후에 반복 백업을 예약할 수 있습니다. 
 ---
 = 데이터베이스를 백업하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

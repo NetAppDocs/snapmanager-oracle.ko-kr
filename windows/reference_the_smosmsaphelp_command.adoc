@@ -5,6 +5,7 @@ keywords: run, help, command, display, information, snapmanager, smo, valid
 summary: help 명령을 실행하여 SnapManager 명령 및 해당 옵션에 대한 정보를 표시할 수 있습니다. 명령 이름을 제공하지 않으면 유효한 명령 목록이 표시됩니다. 명령 이름을 제공하면 해당 명령에 대한 구문이 표시됩니다. 
 ---
 = SMO 도움말 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: run, profile, update, command, information, existing, profile, smo
 summary: 프로파일 업데이트 명령을 실행하여 기존 프로파일의 정보를 업데이트할 수 있습니다. 
 ---
 = SMO 프로필 업데이트 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

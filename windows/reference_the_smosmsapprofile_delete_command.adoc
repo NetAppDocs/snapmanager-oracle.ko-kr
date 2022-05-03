@@ -5,6 +5,7 @@ keywords: run, profile, delete, command, database, smo
 summary: 프로필 삭제 명령을 실행하여 데이터베이스의 프로필을 삭제할 수 있습니다. 
 ---
 = SMO 프로필 삭제 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

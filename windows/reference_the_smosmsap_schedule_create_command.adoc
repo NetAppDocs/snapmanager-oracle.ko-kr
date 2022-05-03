@@ -5,6 +5,7 @@ keywords: smo, schedule, create, command, backup, specific, time
 summary: schedule create 명령을 사용하여 특정 시간에 백업을 생성하도록 예약할 수 있습니다. 
 ---
 = SMO schedule create 명령
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

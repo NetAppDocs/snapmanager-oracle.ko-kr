@@ -5,6 +5,7 @@ keywords: oracle, extensible, markup, language, xml, operation
 summary: 'SnapManager for Oracle은 백업, 복원 및 클론 작업의 사전 작업 및 사후 작업을 나타내는 작업 사양 XML(Extensible Markup Language) 파일을 사용합니다. 백업, 복원 및 클론 작업 전후에 수행할 작업에 대한 사전 작업 및 사후 작업 스크립트 이름을 XML 파일에 추가할 수 있습니다.' 
 ---
 = SnapManager 작업에 대한 작업 사양 파일 및 스크립트를 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
