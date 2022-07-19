@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/snapmanager-oracle/issues/new?body=Page%3A%20[리포지토리 데이터베이스 인스턴스를 만드는 중입니다](https://docs.netapp.com/ko-kr/snapmanager-oracle/unix-installation-cmode/task_creating_the_repository_database_instance.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/snapmanager-oracle/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/snapmanager-oracle/blob/main/unix-installation-cmode/task_creating_the_repository_database_instance.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/snapmanager-oracle/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/snapmanager-oracle/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/snapmanager-oracle/issues/new?body=Page%3A%20[리포지토리 데이터베이스 인스턴스를 만드는 중입니다](https://docs.netapp.com/ko-kr/snapmanager-oracle/unix-installation-cmode/task_creating_the_repository_database_instance.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/snapmanager-oracle/images/discuss-sm.svg" alt="" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/snapmanager-oracle/blob/main/unix-installation-cmode/task_creating_the_repository_database_instance.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/snapmanager-oracle/images/edit-sm.svg" alt="" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/snapmanager-oracle/images/article-sm.svg" alt="" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">이 페이지의 내용</div>
@@ -258,11 +258,13 @@
           <div id="react-search" 
           data-search-html="/ko-kr/snapmanager-oracle/search.html"
           data-type="widget" 
-          data-placeholder="설명서 검색" 
-          data-no-results-found="{query}에 대한 결과를 찾을 수 없음" 
-          data-did-you-mean="{suggestion}을(를) 검색해보십시오." 
-          data-no-results-found-did-you-mean="{query}에 대한 결과를 찾을 수 없습니다. {suggestion}을(를) 검색하려 하셨습니까?" 
-          data-results-found="{hitCount}개의 결과를 찾음"  
+          data-placeholder="설명서 검색"
+          data-no-results-found="{query}에 대한 결과를 찾을 수 없음"
+          data-did-you-mean="{suggestion}을(를) 검색해보십시오."
+          data-no-results-found-did-you-mean="{query}에 대한 결과를 찾을 수 없습니다. {suggestion}을(를) 검색하려 하셨습니까?"
+          data-results-found="{hitCount}개의 결과를 찾음"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -277,35 +279,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">한국어</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">한국어</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/snapmanager-oracle/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/snapmanager-oracle/unix-installation-cmode/task_creating_the_repository_database_instance.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/snapmanager-oracle/unix-installation-cmode/task_creating_the_repository_database_instance.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/snapmanager-oracle/unix-installation-cmode/task_creating_the_repository_database_instance.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/snapmanager-oracle/unix-installation-cmode/task_creating_the_repository_database_instance.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/snapmanager-oracle/unix-installation-cmode/task_creating_the_repository_database_instance.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ko-kr/snapmanager-oracle/unix-installation-cmode/task_creating_the_repository_database_instance.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/snapmanager-oracle/unix-installation-cmode/task_creating_the_repository_database_instance.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/snapmanager-oracle/unix-installation-cmode/task_creating_the_repository_database_instance.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/snapmanager-oracle/unix-installation-cmode/task_creating_the_repository_database_instance.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/snapmanager-oracle/unix-installation-cmode/task_creating_the_repository_database_instance.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -349,7 +343,7 @@
   <div class="col-md-3" id="sidebar-height">
       <div class="n-pdf-header">
   <a id="toggleButtonPdf" class="n-pdf-button" type="button">
-    <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>사용 가능한 PDF<span>
+    <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>사용 가능한 PDF<span>
     </span>
   </a>
 </div>
@@ -359,7 +353,7 @@
         
         
         <a target="_blank" href="/ko-kr/snapmanager-oracle/pdfs/fullsite-sidebar/Oracle용_SnapManager_3_4_2.pdf" >
-          <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>이 문서 사이트의 PDF</a>
+          <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>이 문서 사이트의 PDF</a>
 
 
 
@@ -376,7 +370,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/Clustered_Data_ONTAP용_UNIX의_설치_및_설정.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             Clustered Data ONTAP용 UNIX의 설치 및 설정
           </a>
           
@@ -392,14 +386,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/제품_개요.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             제품 개요
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -421,7 +413,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/배포_준비_중.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             배포 준비 중
           </a>
           
@@ -433,8 +425,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -454,7 +444,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스를_구성하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스를 구성하는 중입니다
           </a>
           
@@ -462,14 +452,7 @@
 
 
 
-    <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
-  <a target="_blank" href="/ko-kr/snapmanager-oracle/pdfs/pages/unix-installation-cmode/task_creating_the_repository_database_instance.pdf" >
-    <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
-    PDF of this page
-  </a>
-</li>
-
-</ul>
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
   
 
 
@@ -477,8 +460,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -500,7 +481,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_설정.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 설정
           </a>
           
@@ -510,8 +491,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -531,7 +510,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapMirror_및_SnapVault_복제를_위한_스토리지_시스템_준비.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapMirror 및 SnapVault 복제를 위한 스토리지 시스템 준비
           </a>
           
@@ -541,8 +520,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -562,7 +539,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_백업_및_확인.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 백업 및 확인
           </a>
           
@@ -578,8 +555,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -589,8 +564,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -610,7 +583,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/7_Mode로_운영되는_Data_ONTAP용_UNIX_설치_및_설정.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             7-Mode로 운영되는 Data ONTAP용 UNIX 설치 및 설정
           </a>
           
@@ -626,14 +599,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/제품_개요.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             제품 개요
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -655,7 +626,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/배포_준비_중.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             배포 준비 중
           </a>
           
@@ -667,8 +638,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -688,7 +657,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스를_구성하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스를 구성하는 중입니다
           </a>
           
@@ -702,8 +671,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -725,7 +692,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_설정.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 설정
           </a>
           
@@ -735,8 +702,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -756,7 +721,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_백업_및_확인.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 백업 및 확인
           </a>
           
@@ -772,8 +737,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -783,8 +746,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -804,7 +765,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/UNIX용_관리.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             UNIX용 관리
           </a>
           
@@ -820,7 +781,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/제품_개요.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             제품 개요
           </a>
           
@@ -860,7 +821,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/권장되는_일반_데이터베이스_레이아웃_및_스토리지_구성.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             권장되는 일반 데이터베이스 레이아웃 및 스토리지 구성
           </a>
           
@@ -886,7 +847,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/ASMLib_없이_ASM_데이터베이스를_지원합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             ASMLib 없이 ASM 데이터베이스를 지원합니다
           </a>
           
@@ -906,7 +867,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/스크립트_배포_및_실행.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             스크립트 배포 및 실행
           </a>
           
@@ -914,8 +875,15 @@
 
 
 
+        </li>
+      </ul>
+    
 
-          
+  
+
+
+
+
         </li>
       </ul>
     
@@ -926,20 +894,7 @@
 
 
 
-          
-        </li>
-      </ul>
-    
 
-  
-
-
-
-
-
-
-
-          
         </li>
       </ul>
     
@@ -959,7 +914,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_작업_시_제한_사항.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 작업 시 제한 사항
           </a>
           
@@ -977,14 +932,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/Oracle_데이터베이스와_관련된_제한_사항.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             Oracle 데이터베이스와 관련된 제한 사항
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -994,8 +947,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1003,8 +954,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1048,7 +997,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/권장되는_일반_데이터베이스_레이아웃_및_스토리지_구성.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             권장되는 일반 데이터베이스 레이아웃 및 스토리지 구성
           </a>
           
@@ -1074,7 +1023,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/ASMLib_없이_ASM_데이터베이스를_지원합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             ASMLib 없이 ASM 데이터베이스를 지원합니다
           </a>
           
@@ -1094,7 +1043,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/스크립트_배포_및_실행.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             스크립트 배포 및 실행
           </a>
           
@@ -1102,8 +1051,15 @@
 
 
 
+        </li>
+      </ul>
+    
 
-          
+  
+
+
+
+
         </li>
       </ul>
     
@@ -1114,20 +1070,7 @@
 
 
 
-          
-        </li>
-      </ul>
-    
 
-  
-
-
-
-
-
-
-
-          
         </li>
       </ul>
     
@@ -1147,7 +1090,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_작업_시_제한_사항.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 작업 시 제한 사항
           </a>
           
@@ -1165,14 +1108,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/Oracle_데이터베이스와_관련된_제한_사항.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             Oracle 데이터베이스와 관련된 제한 사항
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -1182,8 +1123,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1203,7 +1142,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_업그레이드_중.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 업그레이드 중
           </a>
           
@@ -1223,7 +1162,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/업그레이드_후_작업.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             업그레이드 후 작업
           </a>
           
@@ -1233,8 +1172,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1254,7 +1191,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/롤링_업그레이드를_사용하여_SnapManager_호스트_업그레이드.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             롤링 업그레이드를 사용하여 SnapManager 호스트 업그레이드
           </a>
           
@@ -1274,7 +1211,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/롤백이란_무엇인가.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             롤백이란 무엇인가
           </a>
           
@@ -1286,8 +1223,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1295,8 +1230,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1304,8 +1237,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1325,7 +1256,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_구성.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 구성
           </a>
           
@@ -1341,14 +1272,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_구성_매개_변수.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 구성 매개 변수
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -1362,8 +1291,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1383,7 +1310,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/보안_및_자격_증명_관리.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             보안 및 자격 증명 관리
           </a>
           
@@ -1401,7 +1328,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/역할_기반_액세스_제어에_대해_설명합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             역할 기반 액세스 제어에 대해 설명합니다
           </a>
           
@@ -1409,8 +1336,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1438,14 +1363,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/모든_호스트__저장소_및_프로필에_대한_사용자_자격_증명을_지웁니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             모든 호스트, 저장소 및 프로필에 대한 사용자 자격 증명을 지웁니다
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -1465,7 +1388,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/개별_리소스에_대한_자격_증명을_삭제하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             개별 리소스에 대한 자격 증명을 삭제하는 중입니다
           </a>
           
@@ -1475,8 +1398,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1484,8 +1405,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1505,7 +1424,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/효율적인_백업을_위한_프로필_관리.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             효율적인 백업을 위한 프로필 관리
           </a>
           
@@ -1527,8 +1446,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1548,7 +1465,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_백업.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 백업
           </a>
           
@@ -1566,7 +1483,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/전체_및_부분_백업이란.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             전체 및 부분 백업이란
           </a>
           
@@ -1578,8 +1495,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1603,7 +1518,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_백업을_생성하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 백업을 생성하는 중입니다
           </a>
           
@@ -1615,8 +1530,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1636,7 +1549,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/AutoSupport란.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             AutoSupport란
           </a>
           
@@ -1646,8 +1559,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1669,7 +1580,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/백업_보존_정책_변경.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             백업 보존 정책 변경
           </a>
           
@@ -1681,8 +1592,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1702,8 +1611,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1723,7 +1630,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_백업_예약.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 백업 예약
           </a>
           
@@ -1739,8 +1646,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1760,7 +1665,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_백업_복원_중.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 백업 복원 중
           </a>
           
@@ -1776,7 +1681,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_복원이란_무엇입니까.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 복원이란 무엇입니까
           </a>
           
@@ -1792,14 +1697,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/빠른_복원을_사용할_수_있는_시기를_위한_지침입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             빠른 복원을 사용할 수 있는 시기를 위한 지침입니다
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -1815,8 +1718,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1846,7 +1747,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/대체_위치에서_파일을_복원합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             대체 위치에서 파일을 복원합니다
           </a>
           
@@ -1862,7 +1763,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/대체_위치에서_백업_복구_개요.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             대체 위치에서 백업 복구 개요
           </a>
           
@@ -1872,8 +1773,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1885,8 +1784,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1894,8 +1791,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1915,7 +1810,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_백업_복제_중.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 백업 복제 중
           </a>
           
@@ -1935,14 +1830,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/클론_사양_생성_중.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             클론 사양 생성 중
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -1968,14 +1861,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스를_대체_호스트에_클론_생성할_때의_고려_사항.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스를 대체 호스트에 클론 생성할 때의 고려 사항
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -2001,7 +1892,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/클론_분할.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             클론 분할
           </a>
           
@@ -2021,8 +1912,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2030,8 +1919,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2051,7 +1938,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager의_데이터_보호_소개.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager의 데이터 보호 소개
           </a>
           
@@ -2075,7 +1962,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/정책_기반_데이터_보호_구성_및_설정.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             정책 기반 데이터 보호 구성 및 설정
           </a>
           
@@ -2085,8 +1972,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2108,14 +1993,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터_보호를_수행할_때의_고려_사항.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터 보호를 수행할 때의 고려 사항
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -2137,7 +2020,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/보조_스토리지에서_보호된_백업_복원.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             보조 스토리지에서 보호된 백업 복원
           </a>
           
@@ -2145,8 +2028,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2156,8 +2037,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2177,7 +2056,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_for_Oracle은_Protection_Manager를_사용하여_데이터베이스_백업을_보호합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager for Oracle은 Protection Manager를 사용하여 데이터베이스 백업을 보호합니다
           </a>
           
@@ -2201,7 +2080,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/보호된_백업_구성_및_실행.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             보호된 백업 구성 및 실행
           </a>
           
@@ -2221,8 +2100,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2242,7 +2119,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/백업에서_데이터베이스_복원.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             백업에서 데이터베이스 복원
           </a>
           
@@ -2250,8 +2127,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2259,8 +2134,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2280,7 +2153,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/관리_작업을_수행하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             관리 작업을 수행하는 중입니다
           </a>
           
@@ -2298,8 +2171,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2319,7 +2190,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/이메일_알림_구성.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             이메일 알림 구성
           </a>
           
@@ -2337,14 +2208,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/새_프로필에_대한_이메일_알림을_구성합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             새 프로필에 대한 이메일 알림을 구성합니다
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -2364,14 +2233,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/기존_프로파일에_대한_이메일_알림을_구성합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             기존 프로파일에 대한 이메일 알림을 구성합니다
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -2387,8 +2254,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2408,7 +2273,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_작업에_대한_작업_사양_파일_및_스크립트를_생성합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 작업에 대한 작업 사양 파일 및 스크립트를 생성합니다
           </a>
           
@@ -2424,7 +2289,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/사전_작업__사후_작업_및_정책_스크립트_생성.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             사전 작업, 사후 작업 및 정책 스크립트 생성
           </a>
           
@@ -2438,8 +2303,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2459,8 +2322,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2480,7 +2341,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/프로파일과_연결된_스토리지_시스템_이름_및_타겟_데이터베이스_호스트_이름을_업데이트하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             프로파일과 연결된 스토리지 시스템 이름 및 타겟 데이터베이스 호스트 이름을 업데이트하는 중입니다
           </a>
           
@@ -2490,8 +2351,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2511,7 +2370,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_작업_내역_유지.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 작업 내역 유지
           </a>
           
@@ -2527,8 +2386,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2548,7 +2405,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_for_Oracle_명령_참조.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager for Oracle 명령 참조
           </a>
           
@@ -2700,8 +2557,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2721,7 +2576,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_문제_해결.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 문제 해결
           </a>
           
@@ -2737,7 +2592,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/파일을_덤프합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             파일을 덤프합니다
           </a>
           
@@ -2753,8 +2608,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2780,8 +2633,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2793,8 +2644,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2814,7 +2663,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/Windows용_설치_및_설정.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             Windows용 설치 및 설정
           </a>
           
@@ -2830,7 +2679,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_for_Oracle은_SnapManagerfor_Oracle이란_무엇일까요.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager for Oracle은 SnapManagerfor Oracle이란 무엇일까요
           </a>
           
@@ -2850,7 +2699,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_사용의_이점.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 사용의 이점
           </a>
           
@@ -2868,8 +2717,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2889,7 +2736,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_for_Oracle_아키텍처가_무엇인지.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager for Oracle 아키텍처가 무엇인지
           </a>
           
@@ -2901,8 +2748,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2920,8 +2765,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2941,7 +2784,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_for_Oracle_구축_고려_사항.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager for Oracle 구축 고려 사항
           </a>
           
@@ -2957,7 +2800,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_실행을_위한_요구_사항.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 실행을 위한 요구 사항
           </a>
           
@@ -2967,8 +2810,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2988,7 +2829,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_버전_지원_및_구성_개요.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 버전 지원 및 구성 개요
           </a>
           
@@ -2996,8 +2837,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3015,8 +2854,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3036,7 +2873,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/Oracle용_SnapManager_설치.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             Oracle용 SnapManager 설치
           </a>
           
@@ -3052,7 +2889,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/Oracle용_SnapManager_설치_준비.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             Oracle용 SnapManager 설치 준비
           </a>
           
@@ -3060,8 +2897,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3071,8 +2906,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3092,7 +2925,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_업그레이드_중.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 업그레이드 중
           </a>
           
@@ -3112,7 +2945,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/업그레이드_후_작업.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             업그레이드 후 작업
           </a>
           
@@ -3120,8 +2953,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3141,7 +2972,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/롤링_업그레이드를_사용하여_SnapManager_호스트_업그레이드.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             롤링 업그레이드를 사용하여 SnapManager 호스트 업그레이드
           </a>
           
@@ -3161,7 +2992,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/롤백이란_무엇인가.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             롤백이란 무엇인가
           </a>
           
@@ -3173,8 +3004,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3182,8 +3011,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3191,8 +3018,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3212,7 +3037,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_구성.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 구성
           </a>
           
@@ -3228,14 +3053,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_구성_매개_변수.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 구성 매개 변수
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -3243,8 +3066,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3264,7 +3085,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_for_Oracle을_시작하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager for Oracle을 시작하는 중입니다
           </a>
           
@@ -3288,7 +3109,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_액세스_중.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 액세스 중
           </a>
           
@@ -3304,14 +3125,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_호스트_서버를_시작하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 호스트 서버를 시작하는 중입니다
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -3325,8 +3144,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3346,14 +3163,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/환경을_확인하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             환경을 확인하는 중입니다
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -3373,14 +3188,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/리포지토리를_생성하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             리포지토리를 생성하는 중입니다
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -3390,8 +3203,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3411,7 +3222,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/보안_및_자격_증명_관리.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             보안 및 자격 증명 관리
           </a>
           
@@ -3437,14 +3248,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/모든_호스트__저장소_및_프로필에_대한_사용자_자격_증명을_지웁니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             모든 호스트, 저장소 및 프로필에 대한 사용자 자격 증명을 지웁니다
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -3464,7 +3273,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/개별_리소스에_대한_자격_증명을_삭제하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             개별 리소스에 대한 자격 증명을 삭제하는 중입니다
           </a>
           
@@ -3474,8 +3283,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3483,8 +3290,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3504,7 +3309,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/효율적인_백업을_위한_프로필_관리.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             효율적인 백업을 위한 프로필 관리
           </a>
           
@@ -3526,8 +3331,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3547,7 +3350,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_백업.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 백업
           </a>
           
@@ -3565,7 +3368,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/전체_및_부분_백업이란.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             전체 및 부분 백업이란
           </a>
           
@@ -3577,8 +3380,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3602,7 +3403,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_백업을_생성하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 백업을 생성하는 중입니다
           </a>
           
@@ -3612,8 +3413,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3633,7 +3432,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/AutoSupport란.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             AutoSupport란
           </a>
           
@@ -3643,8 +3442,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3666,7 +3463,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/백업_보존_정책_변경.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             백업 보존 정책 변경
           </a>
           
@@ -3678,8 +3475,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3699,8 +3494,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3720,7 +3513,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_백업_예약.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 백업 예약
           </a>
           
@@ -3736,8 +3529,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3757,7 +3548,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_백업_복원_중.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 백업 복원 중
           </a>
           
@@ -3773,7 +3564,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_복원이란_무엇입니까.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 복원이란 무엇입니까
           </a>
           
@@ -3783,8 +3574,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3810,7 +3599,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/대체_위치에서_파일을_복원합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             대체 위치에서 파일을 복원합니다
           </a>
           
@@ -3826,7 +3615,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/대체_위치에서_백업_복구_개요.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             대체 위치에서 백업 복구 개요
           </a>
           
@@ -3834,8 +3623,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3847,8 +3634,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3856,8 +3641,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3877,7 +3660,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스_백업_복제_중.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스 백업 복제 중
           </a>
           
@@ -3897,14 +3680,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/클론_사양_생성_중.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             클론 사양 생성 중
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -3930,14 +3711,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터베이스를_대체_호스트에_클론_생성할_때의_고려_사항.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터베이스를 대체 호스트에 클론 생성할 때의 고려 사항
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -3951,8 +3730,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3972,7 +3749,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager의_데이터_보호_소개.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager의 데이터 보호 소개
           </a>
           
@@ -3990,14 +3767,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/데이터_보호를_수행할_때의_고려_사항.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             데이터 보호를 수행할 때의 고려 사항
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -4017,7 +3792,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/사후_스크립트를_사용하여_데이터베이스_백업_보호.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             사후 스크립트를 사용하여 데이터베이스 백업 보호
           </a>
           
@@ -4035,7 +3810,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/사후_스크립트_작성_또는_업데이트.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             사후 스크립트 작성 또는 업데이트
           </a>
           
@@ -4051,7 +3826,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/후처리__작업_사양_파일_작성.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             후처리, 작업 사양 파일 작성
           </a>
           
@@ -4059,8 +3834,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4068,8 +3841,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -4077,8 +3848,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -4086,8 +3855,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -4107,7 +3874,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/관리_작업을_수행하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             관리 작업을 수행하는 중입니다
           </a>
           
@@ -4125,8 +3892,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4146,7 +3911,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/이메일_알림_구성.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             이메일 알림 구성
           </a>
           
@@ -4164,14 +3929,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/새_프로필에_대한_이메일_알림을_구성합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             새 프로필에 대한 이메일 알림을 구성합니다
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -4191,14 +3954,12 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/기존_프로파일에_대한_이메일_알림을_구성합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             기존 프로파일에 대한 이메일 알림을 구성합니다
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -4214,8 +3975,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4235,7 +3994,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_작업에_대한_작업_사양_파일_및_스크립트를_생성합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 작업에 대한 작업 사양 파일 및 스크립트를 생성합니다
           </a>
           
@@ -4251,7 +4010,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/사전_작업__사후_작업_및_정책_스크립트_생성.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             사전 작업, 사후 작업 및 정책 스크립트 생성
           </a>
           
@@ -4265,8 +4024,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4286,8 +4043,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4307,7 +4062,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/프로파일과_연결된_스토리지_시스템_이름_및_타겟_데이터베이스_호스트_이름을_업데이트하는_중입니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             프로파일과 연결된 스토리지 시스템 이름 및 타겟 데이터베이스 호스트 이름을 업데이트하는 중입니다
           </a>
           
@@ -4317,8 +4072,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4338,7 +4091,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_작업_내역_유지.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 작업 내역 유지
           </a>
           
@@ -4354,8 +4107,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4375,7 +4126,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_for_Oracle_명령_참조.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager for Oracle 명령 참조
           </a>
           
@@ -4509,8 +4260,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4530,7 +4279,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/SnapManager_문제_해결.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             SnapManager 문제 해결
           </a>
           
@@ -4546,7 +4295,7 @@
               href="/ko-kr/snapmanager-oracle/pdfs/sidebar/파일을_덤프합니다.pdf" 
             
           >
-            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/snapmanager-oracle/images/pdf.png" alt="" width="16" height="16"/>
             파일을 덤프합니다
           </a>
           
@@ -4562,8 +4311,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4583,8 +4330,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4596,21 +4341,18 @@
 
 
 
-
-          
         </li>
       </ul>
     
 
   
-
 
 
 
 </li></ul>
   <div class="zip-pdf-link-container" style="display: none;">   
     <a href="#" id="zipPdf">
-      <img src="/ko-kr/snapmanager-oracle/images/pdf-zip.png" width="16" height="16"/>
+      <img src="/ko-kr/snapmanager-oracle/images/pdf-zip.png" alt="" width="16" height="16"/>
       <pre>별도의 PDF 문서 모음<span class="zip-size"></span></pre>
     </a><div id="zip-link-popup" class="hide">
     <div class="inner-modal">
@@ -4643,7 +4385,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/ko-kr/snapmanager-oracle/index.html">
         홈
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/snapmanager-oracle/releasenotes.html">
@@ -6263,6 +6005,9 @@
     
   
 
+<span>기여자
+</span>
+
 
 </p>
 
@@ -6447,4 +6192,5 @@
     </script>
     <script src='/ko-kr/snapmanager-oracle/js/www-ntap.js'></script>
     <script src='/ko-kr/snapmanager-oracle/js/tabbed-blocks.js'></script>
+    <script src='/ko-kr/snapmanager-oracle/js/sidebar.js'></script>
   </body></html>
