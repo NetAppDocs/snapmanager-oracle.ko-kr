@@ -30,7 +30,7 @@ SnapManager를 사용하려면 SnapDrive가 스토리지 시스템과의 접속�
 SnapManager for Oracle이 설치된 데이터베이스 호스트에서 CLI(Command-Line Interface) 또는 UI를 사용할 수 있습니다. SnapManager에서 지원하는 운영 체제에서 실행 중인 시스템에서 웹 브라우저를 사용하여 SnapManager UI를 원격으로 사용할 수도 있습니다.
 
 
-NOTE: 지원되는 JRE 버전은 1.5, 1.6 및 1.7입니다.
+NOTE: 지원되는 JRE 버전은 1.5, 1.6, 1.7 및 1.8입니다.
 
 
 

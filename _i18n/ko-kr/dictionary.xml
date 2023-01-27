@@ -227,7 +227,6 @@
   <block id="af6a1bc54bfa25692fb404beeccbf81f" category="section-title">Oracle용 SnapManager</block>
   <block id="7d5643ff2a416305c8e7f1f9edb27b00" category="paragraph">모든 타겟 데이터베이스 호스트에 Oracle용 SnapManager를 설치해야 합니다.</block>
   <block id="39428a8d90e5b121522d6129b78aa8f9" category="paragraph">SnapManager for Oracle이 설치된 데이터베이스 호스트에서 CLI(Command-Line Interface) 또는 UI를 사용할 수 있습니다. SnapManager에서 지원하는 운영 체제에서 실행 중인 시스템에서 웹 브라우저를 사용하여 SnapManager UI를 원격으로 사용할 수도 있습니다.</block>
-  <block id="7ef022a578be28da1215ccf070dd30ff" category="admonition">지원되는 JRE 버전은 1.5, 1.6 및 1.7입니다.</block>
   <block id="651517944489d080458feaf4b18b48e1" category="section-title">타겟 데이터베이스</block>
   <block id="fc07b3bc28ff78b02c42678ae411ac43" category="paragraph">타겟 데이터베이스는 백업, 복원, 복구 및 클론 작업을 수행하여 SnapManager를 사용하여 관리하려는 Oracle 데이터베이스입니다.</block>
   <block id="01481686276dcdeb8154575ae3331d69" category="paragraph">타겟 데이터베이스는 독립 실행형 RAC(Real Application Clusters)이거나 Oracle ASM(Automatic Storage Management) 볼륨에 상주할 수 있습니다. 지원되는 Oracle 데이터베이스 버전, 구성, 운영 체제 및 프로토콜에 대한 자세한 내용은 NetApp Interoperability Matrix Tool을 참조하십시오.</block>
@@ -1732,7 +1731,6 @@
   <block id="756e5057c93a2103355f62ecd284922e" category="paragraph"><block ref="756e5057c93a2103355f62ecd284922e" category="inline-xref-macro-rx"></block></block>
   <block id="396ec0f6c772a1beebd69c0a24ad7655" category="inline-xref-macro">SnapManager에서 AutoSupport를 비활성화합니다</block>
   <block id="63cd3d42295a7723916d79345dd945f6" category="paragraph"><block ref="63cd3d42295a7723916d79345dd945f6" category="inline-xref-macro-rx"></block></block>
-  <block id="fdf138e8e32b475cac4e95dfa4a6845c" category="summary">SnapManager가 호스트에 설치되어 있지 않은 경우 Java Web Start를 사용할 수 있습니다. Java Web Start는 SnapManager 구성 요소를 다운로드하고 그래픽 사용자 인터페이스(GUI)를 시작합니다. 지원되는 JRE 버전은 1.5, 1.6 및 1.7입니다.</block>
   <block id="a3ce501ae6a1c70515cb2af72f8a5263" category="doc">Java Web Start를 사용하여 그래픽 사용자 인터페이스를 다운로드하고 시작합니다</block>
   <block id="65ac70b2787abfaf135067ac5ef6b778" category="paragraph">다음 조건이 충족되는지 확인해야 합니다.</block>
   <block id="e1549d03ea953026442a3230a7859b92" category="list-text">SnapManager 서버가 실행 중입니다.</block>
@@ -6854,4 +6852,7 @@
   <block id="d23d52eb082db2b040f7a1483c79d790" category="sidebar">UNIX용 관리</block>
   <block id="30027cf267532429435367703cf3d996" category="sidebar">Windows용 설치 및 설정</block>
   <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">법적 고지</block>
+  <block id="48f5a9c122057627462e4b416c5fbdf9" category="admonition">지원되는 JRE 버전은 1.5, 1.6, 1.7 및 1.8입니다.</block>
+  <block id="1e19ac469670780a4c754ec0afa92293" category="summary">SnapManager가 호스트에 설치되어 있지 않은 경우 Java Web Start를 사용할 수 있습니다. Java Web Start는 SnapManager 구성 요소를 다운로드하고 그래픽 사용자 인터페이스(GUI)를 시작합니다. 지원되는 JRE 버전은 1.5, 1.6, 1.7 및 1.8입니다</block>
+  <block id="3c981c21038a256bded47f47d4658951" category="paragraph">SnapManager가 호스트에 설치되어 있지 않은 경우 Java Web Start를 사용할 수 있습니다. Java Web Start는 SnapManager 구성 요소를 다운로드하고 그래픽 사용자 인터페이스(GUI)를 시작합니다. 지원되는 JRE 버전은 1.5, 1.6, 1.7 및 1.8입니다.</block>
 </blocks>
