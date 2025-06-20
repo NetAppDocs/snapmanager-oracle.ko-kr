@@ -6834,14 +6834,10 @@
   <block id="eb5df322b55df7d59b4366df4fcc777e" category="paragraph">물론 SnapMirror와 SnapVault가 백업 통화 및 백업 보존을 위해 제공하는 다양한 기능은 각 볼륨의 255-스냅샷 복사본 제한에서 파생됩니다. SnapMirror는 가장 최근 복사본을 보존합니다. SnapVault는 가장 오랜 기간 동안 생성된 복사본을 보존합니다.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
-  <block id="de6edae22bc37b97b38a15c7f8af62e2" category="paragraph"><block ref="de6edae22bc37b97b38a15c7f8af62e2" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
-  <block id="547ea2e305891e64d8e744949b0aca2c" category="paragraph"><block ref="547ea2e305891e64d8e744949b0aca2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
-  <block id="50921fca0d376fca62102a5e608994e2" category="paragraph"><block ref="50921fca0d376fca62102a5e608994e2" category="inline-link-rx"></block></block>
-  <block id="24efa7ee4511563b16144f39706d594f" category="section-title">주의</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="8a54f568a62c5e9066720e17e405d5b4" category="inline-link-macro">SnapManager for Oracle에 대한 고지 사항</block>
   <block id="1200db7a9269a501f22d120dd0e4cc2f" category="paragraph"><block ref="1200db7a9269a501f22d120dd0e4cc2f" category="inline-link-macro-rx"></block></block>
@@ -6851,8 +6847,16 @@
   <block id="800fd61bdd366a97ae161db8f523ad30" category="sidebar">7-Mode로 운영되는 Data ONTAP용 UNIX 설치 및 설정</block>
   <block id="d23d52eb082db2b040f7a1483c79d790" category="sidebar">UNIX용 관리</block>
   <block id="30027cf267532429435367703cf3d996" category="sidebar">Windows용 설치 및 설정</block>
-  <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">법적 고지</block>
   <block id="48f5a9c122057627462e4b416c5fbdf9" category="admonition">지원되는 JRE 버전은 1.5, 1.6, 1.7 및 1.8입니다.</block>
   <block id="1e19ac469670780a4c754ec0afa92293" category="summary">SnapManager가 호스트에 설치되어 있지 않은 경우 Java Web Start를 사용할 수 있습니다. Java Web Start는 SnapManager 구성 요소를 다운로드하고 그래픽 사용자 인터페이스(GUI)를 시작합니다. 지원되는 JRE 버전은 1.5, 1.6, 1.7 및 1.8입니다</block>
   <block id="3c981c21038a256bded47f47d4658951" category="paragraph">SnapManager가 호스트에 설치되어 있지 않은 경우 Java Web Start를 사용할 수 있습니다. Java Web Start는 SnapManager 구성 요소를 다운로드하고 그래픽 사용자 인터페이스(GUI)를 시작합니다. 지원되는 JRE 버전은 1.5, 1.6, 1.7 및 1.8입니다.</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
 </blocks>
